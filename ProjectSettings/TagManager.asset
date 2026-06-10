@@ -11,6 +11,7 @@ TagManager:
   - PinEsqueleto
   - PinDigestivo
   - PinNervioso
+  - InfoCarotidaIzq
   layers:
   - Default
   - TransparentFX
