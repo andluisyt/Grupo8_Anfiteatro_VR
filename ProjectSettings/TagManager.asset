@@ -12,6 +12,7 @@ TagManager:
   - PinDigestivo
   - PinNervioso
   - InfoCarotidaIzq
+  - InfoVenaBraquio
   layers:
   - Default
   - TransparentFX
