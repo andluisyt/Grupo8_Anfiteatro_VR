@@ -33967,11 +33967,20 @@ PrefabInstance:
     - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
       propertyPath: m_text
-      value: This is an example of the typing animation that can be used with any
-        Text prefab from this package. All you have to do is enable the "Typing On
-        Awake" property from the TextController. You can also set the speed of typing
-        if you want to type fast or slow depending on your use case. Press the button
-        to call the next text animation!
+      value: "<b>Origen:</b> Corresponde a las dos grandes ramas de bifurcaci\xF3n
+        terminal de la aorta abdominal. Se originan a la altura del cuerpo de la
+        v\xE9rtebra L4.\r\n\r\n<b>Trayecto Pelviano:</b> Descienden oblicuamente
+        hacia abajo y afuera siguiendo el borde medial del m\xFAsculo psoas mayor.
+        Marcan el l\xEDmite de la pelvis mayor y no emiten ramas colaterales de importancia.\r\n\r\n<b>Bifurcaci\xF3n:</b>
+        A nivel de la articulaci\xF3n sacroil\xEDaca (L5-S1), cada una se divide
+        en sus dos ramas terminales:\r\n\u2022 <i>Arteria Il\xEDaca Interna (Hipog\xE1strica):</i>
+        Se dirige a la pelvis menor para irrigar v\xEDsceras y gl\xFAteos.\r\n\u2022
+        <i>Arteria Il\xEDaca Externa:</i> Sigue el psoas hacia el miembro inferior."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
@@ -33981,6 +33990,11 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
@@ -33988,12 +34002,12 @@ PrefabInstance:
     - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
       propertyPath: m_VerticalAlignment
-      value: 256
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1324653313682529974, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
@@ -34033,7 +34047,7 @@ PrefabInstance:
     - target: {fileID: 1324653313682529974, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -80
+      value: -120
       objectReference: {fileID: 0}
     - target: {fileID: 1324653313682529974, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
@@ -56316,7 +56330,7 @@ PrefabInstance:
     - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
       propertyPath: m_text
-      value: Typing Animation
+      value: "\nVena Il\xEDaca Com\xFAn"
       objectReference: {fileID: 0}
     - target: {fileID: 1324653313682529973, guid: d0f5d921837d4d74ab139feae0f837f5,
         type: 3}
@@ -61754,6 +61768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Second Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324653313682529975, guid: d0f5d921837d4d74ab139feae0f837f5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -88257,6 +88276,13 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 41719346291303697, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Venas Braquiales'
+      objectReference: {fileID: 0}
+    - target: {fileID: 41719346291303697, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -88292,6 +88318,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 231991138617046308, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 231991138617046308, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 231991138617046309, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 231991138617046311, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_text
@@ -88319,7 +88360,7 @@ PrefabInstance:
     - target: {fileID: 231991138617046311, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontStyle
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 231991138617046311, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88340,12 +88381,19 @@ PrefabInstance:
     - target: {fileID: 231991138617046311, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 231991138617046311, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 282405346825860394, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Radial '
       objectReference: {fileID: 0}
     - target: {fileID: 282405346825860394, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88371,10 +88419,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Continuaci\xF3n de la arteria axilar derecha
+        a partir del borde inferior del redondo mayor. Transcurre por el conducto
+        braquial, siendo el vaso de elecci\xF3n para la toma de presi\xF3n arterial
+        en el brazo derecho.\r\n\r\n<b>Bifurcaci\xF3n:</b> En la fosa del codo anterior,
+        se divide en sus dos ramas terminales: la arteria radial (lateral) y la arteria
+        cubital (medial)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -88383,8 +88451,44 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 308166938321785548, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 308166938321785551, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 308166938321785551, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Rama de bifurcaci\xF3n lateral de la arteria
+        braquial. Recorre la cara lateral del antebrazo (lado del pulgar) por el
+        \"canal del pulso\", descansando sobre el radio y cubierta por el m\xFAsculo
+        braquiorradial.\r\n\r\n<b>Tabaquera Anat\xF3mica y Terminaci\xF3n:</b> En
+        la mu\xF1eca, se curva dorsalmente cruzando el fondo de la tabaquera anat\xF3mica,
+        perfora el primer espacio inter\xF3seo y termina en la palma de la mano formando
+        el **arco palmar profundo**."
+      objectReference: {fileID: 0}
+    - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88394,14 +88498,44 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 333108055743301720, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333108055743301723, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 333108055743301723, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358451591581276058, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "\nArteria Il\xEDaca Interna"
       objectReference: {fileID: 0}
     - target: {fileID: 358451591581276058, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88448,7 +88582,7 @@ PrefabInstance:
     - target: {fileID: 475065409120285312, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 503476475147098261, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88465,6 +88599,11 @@ PrefabInstance:
     - target: {fileID: 503476475147098261, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 503476475147098263, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 515804780819646662, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -88489,6 +88628,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 762055634560892571, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Radial'
+      objectReference: {fileID: 0}
+    - target: {fileID: 762055634560892571, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -88506,10 +88652,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen \xDAnico (Asimetr\xEDa Anat\xF3mica):</b> Nace directamente
+        del arco de la aorta (cayado) en el mediastino superior, siendo su tercera
+        y \xFAltima gran rama.\r\n\r\n<b>Trayecto Intrator\xE1cico y Cervical:</b>
+        Posee una porci\xF3n intrator\xE1cica larga y vertical antes de ascender
+        al cuello. Al llegar a la base cervical, pasa por el hiato interescal\xE9nico
+        (detr\xE1s del escaleno anterior) y se curva sobre la primera costilla. Es
+        significativamente m\xE1s larga que la derecha.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Termina en el borde externo de la primera costilla, transform\xE1ndose en
+        la arteria axilar izquierda."
+      objectReference: {fileID: 0}
+    - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -88518,7 +88687,32 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 834051346087952577, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 834051346087952578, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 834051346087952578, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 848832909487982757, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 848832909487982759, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -88536,6 +88730,11 @@ PrefabInstance:
     - target: {fileID: 848832909487982759, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 856549051609339045, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 856549051609339047, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -88582,10 +88781,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen \xDAnico (Asimetr\xEDa Anat\xF3mica):</b> Nace en la base
+        del cuello, por detr\xE1s de la articulaci\xF3n esternoclavicular derecha,
+        como una de las dos ramas terminales del tronco braquiocef\xE1lico. Carece
+        por completo de trayecto intrator\xE1cico.\r\n\r\n<b>Trayecto Cervical:</b>
+        Asciende verticalmente envuelta en la vaina carot\xEDdea junto a la vena
+        yugular interna (lateral) y el nervio vago (posterior). Debido a su origen
+        alto, es notablemente m\xE1s corta que la izquierda.\r\n\r\n<b>Bifurcaci\xF3n:</b>
+        Al alcanzar el borde superior del cart\xEDlago tiroides (nivel C4), presenta
+        la dilataci\xF3n del seno carot\xEDdeo (barorreceptor) y se divide en sus
+        dos ramas terminales:\r\n\u2022 <i>Car\xF3tida Interna:</i> Asciende a la
+        base del cr\xE1neo sin dar ramas colaterales en el cuello.\r\n\u2022 <i>Car\xF3tida
+        Externa:</i> Emite m\xFAltiples ramas para la cara, la tiroides y el cuero
+        cabelludo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -88594,8 +88820,43 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 871044105365825341, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 871044105365825342, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 871044105365825342, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Continuaci\xF3n de la arteria subclavia izquierda.
+        Inicia en el borde externo de la primera costilla y cruza la fosa axilar.
+        Est\xE1 rodeada \xEDntimamente por los fasc\xEDculos del plexo braquial y
+        protegida por el m\xFAsculo pectoral menor (que la divide en 3 porciones).\r\n\r\n<b>Terminaci\xF3n:</b>
+        Finaliza al cruzar el borde inferior del m\xFAsculo redondo mayor, donde
+        cambia de nombre a arteria braquial izquierda."
+      objectReference: {fileID: 0}
+    - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88605,13 +88866,38 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 910335706002980681, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910335706002980682, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 910335706002980682, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 962995234025982260, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -88641,10 +88927,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Rama terminal directa del tronco tibioperoneo
+        (procedente de la popl\xEDtea). Desciende por el compartimento posterior
+        profundo de la pierna, por debajo del m\xFAsculo s\xF3leo y acompa\xF1ada
+        por el nervio tibial.\r\n\r\n<b>Terminaci\xF3n (Canal Calc\xE1neo):</b> Pasa
+        por detr\xE1s del mal\xE9olo medial (interno) a trav\xE9s del canal calc\xE1neo
+        (t\xFAnel del tarso) y termina dividi\xE9ndose en las **arterias plantares
+        medial y lateral** para la planta del pie."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -88653,7 +88960,32 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126745559298339948, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126745559298339951, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126745559298339951, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161602904977197352, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1161602904977197354, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -88673,6 +89005,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1175944877649061180, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1175944877649061182, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -88688,6 +89025,11 @@ PrefabInstance:
     - target: {fileID: 1175944877649061182, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201126776913874332, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1201126776913874334, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -88707,6 +89049,31 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1244922808683295900, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244922808683295900, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Disposici\xF3n Doble:</b> Son venas profundas del brazo.
+        Se disponen t\xEDpicamente como venas sat\xE9lites dobles (una a cada lado)
+        que acompa\xF1an de forma estrecha a la arteria braquial en todo su trayecto
+        por el brazo.\r\n\r\n<b>Terminaci\xF3n:</b> Finalizan en el borde inferior
+        del redondo mayor al unirse con la vena bas\xEDlica para conformar el tronco
+        de la vena axilar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -88715,14 +89082,36 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244922808683295903, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258500108435184186, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Tibial Anterior'
       objectReference: {fileID: 0}
     - target: {fileID: 1258500108435184186, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88743,6 +89132,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1342083692204537319, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "\nArteria Il\xEDaca Com\xFAn"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342083692204537319, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -88757,6 +89151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448800361989382512, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: Vena Cubital
       objectReference: {fileID: 0}
     - target: {fileID: 1448800361989382512, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88775,6 +89174,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1529973645052401301, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1529973645052401303, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -88791,6 +89195,34 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546318538067047245, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546318538067047245, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen:</b> Rama de bifurcaci\xF3n medial de la arteria il\xEDaca
+        com\xFAn, originada a nivel de la articulaci\xF3n sacroil\xEDaca.\r\n\r\n<b>Trayecto
+        y Ramas:</b> Se dirige hacia abajo y atr\xE1s adentr\xE1ndose en la pelvis
+        menor, discurriendo medial al m\xFAsculo psoas mayor. Al llegar al foramen
+        isqui\xE1tico mayor, se organiza en dos divisiones:\r\n\u2022 <i>Divisi\xF3n
+        Anterior:</i> Da origen a arterias viscerales y parietales (uterina, umbilical,
+        vesical, rectal media, pudenda interna y gl\xFAtea inferior).\r\n\u2022 <i>Divisi\xF3n
+        Posterior:</i> Emite ramas parietales (iliolumbar, sacras laterales y gl\xFAtea
+        superior)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88800,10 +89232,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1546318538067047246, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -88832,7 +89279,7 @@ PrefabInstance:
     - target: {fileID: 1704148876222180539, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1704148876222180539, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88854,6 +89301,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.11372549
       objectReference: {fileID: 0}
+    - target: {fileID: 1738602476830652120, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1738602476830652122, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -88890,10 +89342,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Es la vena m\xE1s grande del cuello y drena
+        el enc\xE9falo, cara y cuello. Se origina en la base del cr\xE1neo en el
+        foramen yugular (agujero rasgado posterior) como la continuaci\xF3n anat\xF3mica
+        del seno sigmoideo.\r\n\r\n<b>Relaciones en el Paquete Vascular:</b> Desciende
+        verticalmente por fuera de las arterias car\xF3tidas dentro de la vaina carot\xEDdea,
+        profunda al m\xFAsculo esternocleidomastoideo.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Termina por detr\xE1s de la articulaci\xF3n esternoclavicular, donde se une
+        con la vena subclavia para estructurar la vena braquiocef\xE1lica. Presenta
+        un bulbo inferior equipado con v\xE1lvulas que evitan el reflujo hacia el
+        cerebro."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -88902,8 +89378,53 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780793496044758913, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780793496044758914, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780793496044758914, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784251851741590976, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784251851741590976, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto Superficial:</b> Es una de las venas superficiales
+        principales del miembro superior. Se origina en la red venosa dorsal de la
+        mano (lado cubital) y asciende por la cara medial del antebrazo y el brazo.\r\n\r\n<b>Perforaci\xF3n
+        Aponeur\xF3tica y Terminaci\xF3n:</b> A nivel del tercio medio/inferior del
+        brazo, perfora la fascia braquial profunda para hacerse profunda. Termina
+        uni\xE9ndose a las venas braquiales para formar la vena axilar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88913,10 +89434,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1784251851741590979, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -88927,6 +89463,29 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1866783837604796720, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866783837604796720, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Disposici\xF3n profunda:</b> Venas profundas sat\xE9lites (dobles)
+        que acompa\xF1an a la arteria radial en la cara lateral del antebrazo. Se
+        originan en los arcos venosos de la mano y terminan uni\xE9ndose con las
+        venas cubitales en la flexura del codo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -88935,10 +89494,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1866783837604796723, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -88964,6 +89538,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1945243701092554056, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1945243701092554058, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -88983,10 +89562,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto (Tri\xE1ngulo de Scarpa):</b> Continuaci\xF3n
+        de la arteria il\xEDaca externa tras pasar por detr\xE1s del ligamento inguinal.
+        Desciende por el compartimento anterior del muslo cruzando el tri\xE1ngulo
+        femoral (Scarpa) dentro de la vaina femoral y luego ingresa al conducto aductor
+        (Hunter).\r\n\r\n<b>Terminaci\xF3n:</b> Finaliza al atravesar el hiato del
+        aductor (anillo del tercer aductor), donde pasa a la regi\xF3n posterior
+        de la rodilla cambiando su nombre a arteria popl\xEDtea."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -88995,7 +89595,27 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992155206438843788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992155206438843791, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992155206438843791, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2007781208517680853, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -89015,6 +89635,18 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2007781208517680855, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2008191291363898891, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Braquial Derecha'
+      objectReference: {fileID: 0}
     - target: {fileID: 2008191291363898891, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89031,6 +89663,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172255380209698075, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Yugular Externa'
       objectReference: {fileID: 0}
     - target: {fileID: 2172255380209698075, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89186,6 +89825,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2451301367518183962, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2473537658601245571, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
@@ -89223,16 +89867,30 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2486869452710429375, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2610116372847541969, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_text
-      value: "Origen y Asimetr\xEDa Anat\xF3mica: Cada vena braquiocef\xE1lica se
-        origina detr\xE1s de la respectiva articulaci\xF3n esternoclavicular por
+      value: "<b>Origen y Asimetr\xEDa Anat\xF3mica:</b> Cada vena braquiocef\xE1lica
+        se origina detr\xE1s de la respectiva articulaci\xF3n esternoclavicular por
         la confluencia de la vena yugular interna y la vena subclavia (\xE1ngulo
         venoso de Pirogoff). Presentan una fuerte asimetr\xEDa: la vena izquierda
         es casi el triple de larga que la derecha, ya que debe cruzar transversalmente
         el mediastino superior por detr\xE1s del manubrio esternal para encontrarse
-        con su hom\xF3loga."
+        con su hom\xF3loga.\r\n\r\n<b>Trayecto y Relaciones:</b>\r\n\u2022 <i>Vena
+        derecha:</i> Desciende de forma casi vertical a la derecha del tronco braquiocef\xE1lico
+        arterial.\r\n\u2022 <i>Vena izquierda:</i> Transcurre de izquierda a derecha
+        con una trayectoria oblicua hacia abajo, cruzando por delante de las tres
+        grandes ramas del arco de la aorta (car\xF3tida com\xFAn izquierda, subclavia
+        izquierda y tronco braquiocef\xE1lico).\r\n\r\n<b>Afluentes y Terminaci\xF3n:</b>
+        Reciben la linfa de los conductos linf\xE1ticos principales (el conducto
+        tor\xE1cico en el lado izquierdo). Ambas venas finalizan al fusionarse a
+        la altura del primer cart\xEDlago costal derecho para dar inicio a la vena
+        cava superior."
       objectReference: {fileID: 0}
     - target: {fileID: 2610116372847541969, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89248,7 +89906,7 @@ PrefabInstance:
     - target: {fileID: 2610116372847541969, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontStyle
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2610116372847541969, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89264,13 +89922,33 @@ PrefabInstance:
     - target: {fileID: 2610116372847541969, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_VerticalAlignment
-      value: 256
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610116372847541969, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2610116372847541969, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610116372847541970, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610116372847541970, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619741549049324585, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2619741549049324587, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89287,6 +89965,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641199549609168959, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Aorta Descendente'
       objectReference: {fileID: 0}
     - target: {fileID: 2641199549609168959, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89307,10 +89992,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Disposici\xF3n y Trayecto:</b> Son venas profundas del antebrazo
+        que se originan del arco venoso palmar profundo. Ascienden como venas sat\xE9lites
+        dobles flanqueando a la arteria cubital y drenando los m\xFAsculos mediales
+        del antebrazo.\r\n\r\n<b>Terminaci\xF3n:</b> Confluyen en la fosa del codo
+        con las venas radiales para dar origen a las venas braquiales."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -89319,8 +90023,35 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663818891534525060, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663818891534525063, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663818891534525063, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708531446869640384, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Braquial Izquierda'
       objectReference: {fileID: 0}
     - target: {fileID: 2708531446869640384, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89341,10 +90072,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Relaci\xF3n de Superficialidad:</b> Se origina en el borde
+        inferior del m\xFAsculo popl\xEDteo por la uni\xF3n de las venas tibiales.
+        Asciende por la fosa popl\xEDtea, situ\xE1ndose de manera constante **superficial**
+        (posterior) a la arteria popl\xEDtea.\r\n\r\n<b>Terminaci\xF3n:</b> Termina
+        al cruzar el hiato del aductor para convertirse en vena femoral."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -89353,7 +90103,27 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810633154391219660, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810633154391219663, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810633154391219663, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2828478283010142414, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -89381,6 +90151,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.11372549
       objectReference: {fileID: 0}
+    - target: {fileID: 2829183644782350580, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2829183644782350582, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89400,10 +90175,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Gran tronco venoso profundo que se forma
+        por la uni\xF3n de las venas perforantes del muslo. Recorre el compartimento
+        posterior y medial del muslo, recolectando la sangre de las estructuras \xF3seas
+        y musculares del f\xE9mur.\r\n\r\n<b>Terminaci\xF3n:</b> Desemboca en la
+        vena femoral principal en la porci\xF3n superior del tri\xE1ngulo femoral,
+        unos cent\xEDmetros por debajo del ligamento inguinal."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -89412,7 +90207,27 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888794573579232256, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888794573579232259, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888794573579232259, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3145117588648838801, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -89477,21 +90292,31 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3179781797145865419, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_text
-      value: "Origen \xDAnico (Asimetr\xEDa Anat\xF3mica): Mientras que la car\xF3tida
-        com\xFAn derecha nace del tronco braquiocef\xE1lico, la car\xF3tida com\xFAn
-        izquierda nace directamente del arco de la aorta (cayado a\xF3rtico). Es
-        la segunda gran rama que emerge de \xE9l.\n\nTrayecto Intrator\xE1cico: Debido
-        a su origen directo en la aorta, la arteria izquierda tiene una peque\xF1a
+      value: "<b>Origen \xDAnico (Asimetr\xEDa Anat\xF3mica):</b> Mientras que la
+        car\xF3tida com\xFAn derecha nace del tronco braquiocef\xE1lico, la car\xF3tida
+        com\xFAn izquierda nace directamente del arco de la aorta (cayado a\xF3rtico).
+        Es la segunda gran rama que emerge de \xE9l.\r\n\r\n<b>Trayecto Intrator\xE1cico:</b>
+        Debido a su origen directo en la aorta, la arteria izquierda tiene una peque\xF1a
         porci\xF3n que transcurre dentro del t\xF3rax antes de subir al cuello. Por
-        lo tanto, es m\xE1s larga que la derecha.\n"
+        lo tanto, es m\xE1s larga que la derecha.\r\n\r\n<b>Bifurcaci\xF3n:</b> Al
+        llegar al borde superior del cart\xEDlago tiroides (aproximadamente a la
+        altura de la v\xE9rtebra C4), se divide en sus dos ramas terminales:\r\n\u2022
+        <i>Car\xF3tida Interna:</i> Sube directo al cr\xE1neo sin dar ramas en el
+        cuello, encarg\xE1ndose de irrigar el cerebro.\r\n\u2022 <i>Car\xF3tida Externa:</i>
+        Irriga las estructuras de la cara, el cuello y el cuero cabelludo.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontSize
-      value: 32
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89502,12 +90327,12 @@ PrefabInstance:
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontStyle
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 32
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89518,13 +90343,28 @@ PrefabInstance:
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_VerticalAlignment
-      value: 256
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3188631496955011724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3188631496955011727, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188631496955011727, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3234550404124618881, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89540,6 +90380,11 @@ PrefabInstance:
     - target: {fileID: 3234550404124618881, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234550404124618883, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3253342627837735005, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -89559,6 +90404,16 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3253342627837735007, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271930174696296296, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3271930174696296298, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89575,6 +90430,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359588372586802525, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Femoral'
       objectReference: {fileID: 0}
     - target: {fileID: 3359588372586802525, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89610,6 +90472,31 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3460583900474781003, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen \xDAnico (Asimetr\xEDa Anat\xF3mica):</b> Nace de la cara
+        lateral de la aorta abdominal, por debajo de la mesent\xE9rica superior,
+        a nivel de L1-L2. Debido a que la aorta est\xE1 desplazada a la izquierda
+        de la l\xEDnea media, esta arteria es significativamente m\xE1s corta que
+        la derecha.\r\n\r\n<b>Trayecto y Relaciones:</b> Corre horizontalmente por
+        el retroperitoneo hacia el hilio renal izquierdo, pasando por detr\xE1s de
+        la vena renal izquierda y del cuerpo del p\xE1ncreas.\r\n\r\n<b>Bifurcaci\xF3n
+        Terminal:</b> Antes de ingresar al par\xE9nquima se divide en:\r\n\u2022
+        <i>Ramas Anteriores (Prepi\xE9licas):</i> Distribuidas por la cara anterior
+        y los polos del ri\xF1\xF3n.\r\n\u2022 <i>Ramas Posteriores (Retropi\xE9licas):</i>
+        Pasan por detr\xE1s de la pelvis renal hacia el segmento posterior."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89618,13 +90505,38 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516072198571418788, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516072198571418791, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516072198571418791, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3622938797749854404, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -89653,6 +90565,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746924521935090904, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Axilar Izquierda'
       objectReference: {fileID: 0}
     - target: {fileID: 3746924521935090904, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89745,6 +90664,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3900693149152485108, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3900693149152485110, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89761,6 +90685,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933553670529586055, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Yugular Interna'
       objectReference: {fileID: 0}
     - target: {fileID: 3933553670529586055, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89846,6 +90777,16 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3939675684025342283, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954748293126601440, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3954748293126601442, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89861,6 +90802,11 @@ PrefabInstance:
     - target: {fileID: 3954748293126601442, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3960692223957987381, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3960692223957987383, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -89880,6 +90826,35 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3982552837129132037, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982552837129132037, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Continuaci\xF3n directa de la vena axilar
+        encargada del drenaje principal del miembro superior. Comienza cuando el
+        vaso cruza el borde externo de la primera costilla y corre de forma medial
+        hacia la ra\xEDz del cuello.\r\n\r\n<b>Asimetr\xEDa en Relaciones Mec\xE1nicas:</b>
+        A diferencia de la arteria subclavia, la vena subclavia <i>no</i> pasa a
+        trav\xE9s del espacio interescal\xE9nico. Transcurre por delante del m\xFAsculo
+        escaleno anterior, evitando ser colapsada por la contracci\xF3n muscular.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Finaliza por detr\xE1s de la extremidad esternal de la clav\xEDcula, donde
+        se une a la vena yugular interna para constituir el tronco venoso braquiocef\xE1lico
+        correspondiente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89888,10 +90863,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3982552837129132038, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -89914,6 +90904,29 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4052944261546611183, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Longitud (Asimetr\xEDa):</b> Nace de la cara lateral derecha
+        de la aorta abdominal (nivel L1-L2). Al estar la aorta a la izquierda, esta
+        arteria es notablemente m\xE1s larga que su hom\xF3loga izquierda.\r\n\r\n<b>Trayecto
+        Retro-Cava:</b> Atraviesa el retroperitoneo de forma horizontal cruzando
+        obligatoriamente **por detr\xE1s de la vena cava inferior**, de la vena renal
+        derecha y de la cabeza del p\xE1ncreas.\r\n\r\n<b>Bifurcaci\xF3n:</b> Al
+        aproximarse al hilio renal derecho, se organiza de forma id\xE9ntica a la
+        izquierda en ramas segmentarias anteriores (prepi\xE9licas) y posteriores
+        (retropi\xE9licas) para la irrigaci\xF3n del ri\xF1\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89922,13 +90935,38 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064304750065833877, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064304750065833878, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064304750065833878, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4096772414756556300, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -89991,6 +91029,21 @@ PrefabInstance:
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4194518882868992001, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194518882868992001, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194518882868992002, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4194518882868992002, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -89999,14 +91052,52 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4194518882868992002, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194518882868992002, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 4194518882868992002, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194518882868992002, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194518882868992002, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221711074479977576, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221711074479977576, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Disposici\xF3n:</b> Venas profundas sat\xE9lites dobles que acompa\xF1an
+        a la arteria tibial posterior en el compartimento posterior de la pierna.
+        Ascienden desde el canal calc\xE1neo y terminan en el anillo del s\xF3leo
+        uni\xE9ndose con las venas tibiales anteriores para formar la vena popl\xEDtea."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90016,10 +91107,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4221711074479977579, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -90028,7 +91134,37 @@ PrefabInstance:
     - target: {fileID: 4303952437601525393, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379877473726101625, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379877473726101625, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Asimetr\xEDa Anat\xF3mica:</b> Es un gran tronco venoso
+        intrator\xE1cico impar y asim\xE9trico. Se origina en el mediastino superior
+        por detr\xE1s del primer cart\xEDlago costal derecho debido a la uni\xF3n
+        directa de ambas venas braquiocef\xE1licas.\r\n\r\n<b>Trayecto Intrator\xE1cico:</b>
+        Desciende verticalmente por el lado derecho de la aorta ascendente. Su mitad
+        inferior est\xE1 cubierta por el saco peric\xE1rdico, relacion\xE1ndose estrechamente
+        con la ra\xEDz del pulm\xF3n derecho.\r\n\r\n<b>Afluente Mayor y Terminaci\xF3n:</b>
+        \r\n\u2022 <i>Vena \xC1zigos:</i> Antes de ingresar al coraz\xF3n, recibe
+        por su cara posterior el cayado de la vena \xE1zigos por encima del bronquio
+        principal derecho.\r\n\u2022 <i>Terminaci\xF3n:</i> Desemboca en la pared
+        superior de la aur\xEDcula derecha de forma avalvular."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90038,15 +91174,58 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4379877473726101626, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4478407226878564432, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478407226878564432, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto Superficial:</b> Se origina en la regi\xF3n parot\xEDdea
+        por la uni\xF3n de la vena auricular posterior y la vena retromandibular.
+        Desciende oblicuamente por el cuello, siendo un vaso puramente superficial
+        que cruza por encima del m\xFAsculo esternocleidomastoideo.\r\n\r\n<b>Relaci\xF3n
+        Cl\xEDnica:</b> Al estar separada de la piel \xFAnicamente por el platisma
+        y la fascia superficial, es el vaso que se distiende (ingurgitaci\xF3n yugular)
+        ante el aumento de presi\xF3n intrator\xE1cica o insuficiencia card\xEDaca.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Perfora la fascia cervical profunda en el tri\xE1ngulo posterior del cuello
+        y desemboca de forma directa en la vena subclavia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90055,14 +91234,45 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478407226878564435, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Rama de bifurcaci\xF3n medial de la arteria
+        braquial. Es m\xE1s gruesa que la radial. Desciende por el lado medial del
+        antebrazo profunda al m\xFAsculo flexor superficial de los dedos y acompa\xF1ada
+        por el nervio cubital.\r\n\r\n<b>Terminaci\xF3n (Conducto de Guyon):</b>
+        Pasa a la mano cruzando por el conducto cubital (de Guyon) por fuera del
+        hueso pisiforme y termina constituyendo la mayor parte del **arco palmar
+        superficial**."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90072,13 +91282,38 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510475187750856717, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510475187750856718, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510475187750856718, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4515396079116663500, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -90120,6 +91355,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4527592163176531271, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Renal Derecha'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4527592163176531271, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -90135,10 +91377,22 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4537185899460044801, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537185899460044801, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4537185899460044802, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_text
-      value: Arteria Carotida Comun Izquierda
+      value: '
+
+        Arteria Carotida Comun Izquierda'
       objectReference: {fileID: 0}
     - target: {fileID: 4537185899460044802, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90149,7 +91403,7 @@ PrefabInstance:
     - target: {fileID: 4537185899460044802, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontStyle
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4537185899460044802, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90157,6 +91411,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 4537185899460044802, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537185899460044802, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4537185899460044802, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -90199,10 +91463,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4614487283943675993, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614487283943675993, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 4614487283943675993, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4614487283943675993, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -90211,7 +91485,32 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4614487283943675993, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614487283943675993, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614487283943675993, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614487283943675994, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614487283943675994, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736911138528478601, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4736911138528478603, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -90246,6 +91545,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 1.012
       objectReference: {fileID: 0}
+    - target: {fileID: 4852640312385971724, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4852640312385971726, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90262,6 +91566,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930423460001383176, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Iliaca Interna'
       objectReference: {fileID: 0}
     - target: {fileID: 4930423460001383176, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90326,6 +91637,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4974535778298901011, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4983679750592959651, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Name
@@ -90375,6 +91691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.r
       value: 0.11372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 5168460575041728905, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "\nArteria Car\xF3tida com\xFAn Derecha"
       objectReference: {fileID: 0}
     - target: {fileID: 5168460575041728905, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90460,6 +91781,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5301741664174380639, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5363277110704272497, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontSize
@@ -90487,6 +91813,35 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5365688338416028825, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365688338416028825, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen \xDAnico:</b> Es la primera gran rama visceral impar de la
+        aorta abdominal. Nace inmediatamente por debajo del hiato a\xF3rtico del
+        diafragma, a la altura de la v\xE9rtebra T12-L1, proyect\xE1ndose hacia la
+        cavidad peritoneal.\r\n\r\n<b>Trifurcaci\xF3n Anat\xF3mica:</b> Tras un trayecto
+        muy corto (1 a 2 cm), se divide simult\xE1neamente en tres ramas arteriales
+        cr\xEDticas para los \xF3rganos del intestino anterior:\r\n\u2022 <i>Arteria
+        G\xE1strica Izquierda:</i> Irriga el cardias y la curvatura menor del est\xF3mago.\r\n\u2022
+        <i>Arteria Espl\xE9nica:</i> Trayecto tortuoso sobre el p\xE1ncreas en direcci\xF3n
+        al bazo.\r\n\u2022 <i>Arteria Hep\xE1tica Com\xFAn:</i> Se dirige a la derecha
+        para irrigar el h\xEDgado, ves\xEDcula, duodeno y p\xE1ncreas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90495,14 +91850,36 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365688338416028826, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391261759791574876, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Renal Izquierda'
       objectReference: {fileID: 0}
     - target: {fileID: 5391261759791574876, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90538,6 +91915,16 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5471129782551158298, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516818135393904557, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5516818135393904559, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90553,6 +91940,11 @@ PrefabInstance:
     - target: {fileID: 5516818135393904559, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5634809651941437173, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5634809651941437175, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -90572,6 +91964,11 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5654300244030395968, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5654300244030395970, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90587,6 +91984,11 @@ PrefabInstance:
     - target: {fileID: 5654300244030395970, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741787412152447269, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5741787412152447271, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -90608,6 +92010,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5746563455104803139, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Poplitea'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746563455104803139, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -90622,6 +92031,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749809230878320555, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Femoral'
       objectReference: {fileID: 0}
     - target: {fileID: 5749809230878320555, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90664,6 +92080,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5890101512247530427, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Femoral Profunda'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890101512247530427, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -90678,6 +92101,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951880514065582083, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Cubital'
       objectReference: {fileID: 0}
     - target: {fileID: 5951880514065582083, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90698,10 +92128,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Segmentaci\xF3n:</b> Comienza a nivel de T4 como continuaci\xF3n
+        del arco de la aorta y se divide en dos porciones: la aorta tor\xE1cica y
+        la aorta abdominal, separadas f\xEDsicamente por el diafragma.\r\n\r\n<b>Trayecto
+        y Ramas:</b> \r\n\u2022 <i>Porci\xF3n Tor\xE1cica:</i> Nace a la izquierda
+        de la columna y se desplaza al centro emitiendo ramas intercostales y viscerales.
+        Cruza el diafragma por el hiato a\xF3rtico a nivel de T12.\r\n\u2022 <i>Porci\xF3n
+        Abdominal:</i> Discurre por el retroperitoneo por delante de los cuerpos
+        vertebrales lumbares.\r\n\r\n<b>Terminaci\xF3n:</b> Finaliza a la altura
+        de la v\xE9rtebra L4, donde se bifurca en sus ramas terminales: las dos arterias
+        il\xEDacas comunes y la arteria sacra media."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -90710,7 +92164,27 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957837783951269397, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957837783951269398, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957837783951269398, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5973229259021196307, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -90807,6 +92281,33 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.11372549
       objectReference: {fileID: 0}
+    - target: {fileID: 6136694013924508912, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136694013924508912, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Continuaci\xF3n de la arteria axilar a partir
+        del borde inferior del redondo mayor. Desciende por la cara interna del brazo
+        en el compartimento anterior, ubicada dentro del conducto braquial junto
+        al nervio mediano y las venas braquiales.\r\n\r\n<b>Bifurcaci\xF3n:</b> Al
+        llegar a la fosa del codo (delimitada por el pronador redondo y el braquiorradial),
+        se divide en sus dos ramas terminales:\r\n\u2022 <i>Arteria Radial:</i> Rama
+        lateral y m\xE1s superficial.\r\n\u2022 <i>Arteria Cubital (Ulnar):</i> Rama
+        medial y m\xE1s profunda."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90815,14 +92316,56 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136694013924508915, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159361965637816617, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159361965637816617, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Relaciones:</b> Continuaci\xF3n de la arteria femoral a
+        partir del hiato del aductor. Atraviesa verticalmente y en profundidad la
+        fosa popl\xEDtea (regi\xF3n posterior de la rodilla), estando \xEDntimamente
+        relacionada con la cara posterior de la c\xE1psula articular.\r\n\r\n<b>Bifurcaci\xF3n:</b>
+        Finaliza en el borde inferior del m\xFAsculo popl\xEDteo (anillo del s\xF3leo),
+        donde se divide en sus dos ramas terminales:\r\n\u2022 <i>Arteria Tibial
+        Anterior.</i>\r\n\u2022 <i>Tronco Tibioperoneo</i> (el cual dar\xE1 origen
+        a la arteria tibial posterior y peronea)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90832,10 +92375,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6159361965637816618, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -90861,6 +92419,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6230409382583980785, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6230409382583980787, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90878,6 +92441,34 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6241806188342796025, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241806188342796025, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Confluencia Asim\xE9trica:</b> Se forma por detr\xE1s de
+        la arteria il\xEDaca interna a nivel de la articulaci\xF3n sacroil\xEDaca
+        por la uni\xF3n de las venas il\xEDaca externa e interna. La vena izquierda
+        es m\xE1s larga y oblicua que la derecha.\r\n\r\n<b>Relaci\xF3n Mec\xE1nica
+        (S\xEDndrome de May-Thurner):</b> La vena il\xEDaca com\xFAn izquierda pasa
+        por debajo de la arteria il\xEDaca com\xFAn derecha, quedando comprimida
+        contra la columna lumbar, una relaci\xF3n anat\xF3mica con alta relevancia
+        cl\xEDnica.\r\n\r\n<b>Terminaci\xF3n:</b> Ambas venas confluyen a la altura
+        de la v\xE9rtebra L5 para dar origen y comienzo a la vena cava inferior."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90886,10 +92477,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6241806188342796026, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -90899,6 +92505,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350994523153426296, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Tibial Anterior'
       objectReference: {fileID: 0}
     - target: {fileID: 6350994523153426296, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90950,7 +92563,7 @@ PrefabInstance:
     - target: {fileID: 6418094888720097847, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6418094888720097847, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90959,6 +92572,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450676160292231751, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Renal'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450676160292231751, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -90974,6 +92594,31 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6555238220404666820, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555238220404666820, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Rama de bifurcaci\xF3n anterior de la arteria
+        popl\xEDtea. Perfora hacia adelante el espacio superior de la membrana inter\xF3sea
+        y desciende por el compartimento anterior de la pierna, profundamente situada
+        entre los m\xFAsculos tibial anterior y extensor largo de los dedos.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Termina al cruzar el borde inferior del retin\xE1culo extensor en el tobillo,
+        donde cambia de nombre a **arteria dorsal del pie (pedia)**."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -90982,10 +92627,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6555238220404666823, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -91006,6 +92666,11 @@ PrefabInstance:
     - target: {fileID: 6560555754344794413, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560555754344794415, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6594514922980157397, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -91033,6 +92698,31 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.11372549
       objectReference: {fileID: 0}
+    - target: {fileID: 6719720512831933232, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719720512831933232, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Relaciones:</b> Se forma en el borde inferior del m\xFAsculo
+        redondo mayor por la confluencia de las venas braquiales profundas y la vena
+        bas\xEDlica. Asciende por la fosa axilar situ\xE1ndose de manera constante
+        en el lado medial (interno) de la arteria axilar.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Finaliza en el borde externo de la primera costilla, convirti\xE9ndose en
+        la vena subclavia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91041,14 +92731,36 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719720512831933235, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6741134349089477500, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Subclavia Derecha '
       objectReference: {fileID: 0}
     - target: {fileID: 6741134349089477500, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91067,6 +92779,31 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6794597611397473413, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794597611397473413, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto:</b> Continuaci\xF3n de la arteria subclavia derecha.
+        Inicia en el borde externo de la primera costilla y cruza la fosa axilar
+        de derecha a izquierda. Sirve de eje principal para las ramas colaterales
+        de la cintura escapular.\r\n\r\n<b>Terminaci\xF3n:</b> Finaliza en el borde
+        inferior del m\xFAsculo redondo mayor, cambiando su estructura y denominaci\xF3n
+        a arteria braquial derecha."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91075,14 +92812,57 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794597611397473414, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827227513557488313, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827227513557488313, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen:</b> Rama de bifurcaci\xF3n medial de la arteria il\xEDaca
+        com\xFAn, originada a nivel de la articulaci\xF3n sacroil\xEDaca.\r\n\r\n<b>Trayecto
+        y Ramas:</b> Se dirige hacia abajo y atr\xE1s adentr\xE1ndose en la pelvis
+        menor, discurriendo medial al m\xFAsculo psoas mayor. Al llegar al foramen
+        isqui\xE1tico mayor, se organiza en dos divisiones:\r\n\u2022 <i>Divisi\xF3n
+        Anterior:</i> Da origen a arterias viscerales y parietales (uterina, umbilical,
+        vesical, rectal media, pudenda interna y gl\xFAtea inferior).\r\n\u2022 <i>Divisi\xF3n
+        Posterior:</i> Emite ramas parietales (iliolumbar, sacras laterales y gl\xFAtea
+        superior)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91092,14 +92872,36 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827227513557488314, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845103057495320560, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Tibial Posterior'
       objectReference: {fileID: 0}
     - target: {fileID: 6845103057495320560, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91117,6 +92919,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874731129534654755, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Axilar Derecha'
       objectReference: {fileID: 0}
     - target: {fileID: 6874731129534654755, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91175,6 +92984,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.11372549
       objectReference: {fileID: 0}
+    - target: {fileID: 7119498527506308276, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7119498527506308278, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91199,6 +93013,36 @@ PrefabInstance:
 
         Cubito'
       objectReference: {fileID: 0}
+    - target: {fileID: 7306205469084101576, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306205469084101576, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto Abdomino-Tor\xE1cico:</b> Es el vaso venoso m\xE1s
+        grande del organismo. Se origina en el abdomen a nivel de la v\xE9rtebra
+        L5 por la uni\xF3n de las dos venas il\xEDacas comunes. Asciende verticalmente
+        por el retroperitoneo a la derecha de la aorta abdominal.\r\n\r\n<b>Trayecto
+        Hep\xE1tico y Diafragm\xE1tico:</b> Labra un profundo surco en la cara posterior
+        del h\xEDgado donde recibe las venas hep\xE1ticas (suprahep\xE1ticas). Cruza
+        el diafragma a trav\xE9s del foramen de la vena cava (nivel T8).\r\n\r\n<b>Porci\xF3n
+        Tor\xE1cica y Terminaci\xF3n:</b> Tiene un trayecto tor\xE1cico sumamente
+        corto e ingresa a la pared inferior de la aur\xEDcula derecha. Su orificio
+        est\xE1 regulado parcialmente por la v\xE1lvula de la vena cava inferior
+        (v\xE1lvula de Eustaquio)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91207,10 +93051,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7306205469084101579, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -91244,7 +93103,9 @@ PrefabInstance:
     - target: {fileID: 7332627436451675134, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_text
-      value: Vena Cava Superior
+      value: '
+
+        Vena Cava Inferior '
       objectReference: {fileID: 0}
     - target: {fileID: 7332627436451675134, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91265,6 +93126,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7348151909397433602, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Subclavia'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348151909397433602, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -91278,6 +93146,11 @@ PrefabInstance:
     - target: {fileID: 7348151909397433602, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353541295987615628, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7353541295987615630, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -91322,6 +93195,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7408670378003208888, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408670378003208888, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408670378003208891, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7408670378003208891, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91330,14 +93218,36 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7408670378003208891, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408670378003208891, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 7408670378003208891, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408670378003208891, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408670378003208891, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412774639624762896, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Poplitea'
       objectReference: {fileID: 0}
     - target: {fileID: 7412774639624762896, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91416,10 +93326,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7465745013363951485, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465745013363951485, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 7465745013363951485, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7465745013363951485, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -91428,7 +93348,27 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7465745013363951485, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465745013363951485, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465745013363951485, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465745013363951486, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465745013363951486, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7549107819113611435, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -91496,6 +93436,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.11372549
       objectReference: {fileID: 0}
+    - target: {fileID: 7573876762531353840, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7573876762531353842, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91530,6 +93475,16 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7608206782045296874, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650408568877894956, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7650408568877894956, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91538,13 +93493,43 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7650408568877894956, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650408568877894956, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 7650408568877894956, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650408568877894956, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650408568877894956, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650408568877894959, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650408568877894959, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650906690640593628, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7650906690640593630, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -91564,6 +93549,34 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7670657888574273921, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670657888574273921, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen \xDAnico (Asimetr\xEDa Anat\xF3mica):</b> Nace en la base
+        del cuello, por detr\xE1s de la articulaci\xF3n esternoclavicular derecha,
+        como la rama terminal posterior del tronco braquiocef\xE1lico. No posee trayecto
+        intrator\xE1cico.\r\n\r\n<b>Trayecto y Relaci\xF3n Muscular:</b> Se curva
+        sobre la c\xFApula pleural y la primera costilla. Pasa obligatoriamente a
+        trav\xE9s del **hiato interescal\xE9nico** (entre los m\xFAsculos escaleno
+        anterior y medio) junto con los troncos del plexo braquial.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Termina al cruzar el borde externo de la primera costilla, espacio a partir
+        del cual cambia de nombre para convertirse en la arteria axilar derecha."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91572,14 +93585,36 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670657888574273922, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716789396902479640, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Subclavia Izquierda'
       objectReference: {fileID: 0}
     - target: {fileID: 7716789396902479640, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91682,6 +93717,40 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7764068019883484750, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017747977713712325, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017747977713712325, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen \xDAnico:</b> Continuaci\xF3n directa de la aorta ascendente.
+        Comienza en el mediastino superior a la altura del \xE1ngulo esternal (T4-T5)
+        y describe una curva con concavidad inferior dirigi\xE9ndose hacia atr\xE1s
+        y a la izquierda.\r\n\r\n<b>Grandes Ramas Asim\xE9tricas:</b> De su cara
+        convexa emergen los tres troncos arteriales principales del cuerpo:\r\n\u2022
+        <i>Tronco braquiocef\xE1lico:</i> Primera rama (exclusiva del lado derecho).\r\n\u2022
+        <i>Arteria car\xF3tida com\xFAn izquierda:</i> Segunda rama.\r\n\u2022 <i>Arteria
+        subclavia izquierda:</i> Tercera rama.\r\n\r\n<b>Terminaci\xF3n:</b> Finaliza
+        al llegar al lado izquierdo del cuerpo de la v\xE9rtebra T4, donde se contin\xFAa
+        hacia abajo como la aorta descendente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -91690,10 +93759,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8017747977713712326, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -91727,7 +93811,9 @@ PrefabInstance:
     - target: {fileID: 8059395641079696226, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_text
-      value: Vena Cava Superior
+      value: '
+
+        Vena Cava Superior'
       objectReference: {fileID: 0}
     - target: {fileID: 8059395641079696226, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91808,6 +93894,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8230867535043944548, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Tronco Celiaco '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8230867535043944548, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -91825,6 +93918,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8245833348368752084, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: '
+
+        Vena Axilar'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245833348368752084, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -91839,6 +93939,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253450546256435537, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arteria Tibial Posterior'
       objectReference: {fileID: 0}
     - target: {fileID: 8253450546256435537, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91872,6 +93979,11 @@ PrefabInstance:
     - target: {fileID: 8284714038918891556, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284714038918891558, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8302870155667588965, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -91936,10 +94048,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto (Pinza Aortomesent\xE9rica):</b> Formada en el
+        hilio por la uni\xF3n de las venas segmentarias. Al estar la vena cava inferior
+        a la derecha, la vena renal izquierda es la m\xE1s larga y compleja: debe
+        cruzar la l\xEDnea media pasando obligatoriamente por el espacio entre la
+        aorta abdominal y la arteria mesent\xE9rica superior.\r\n\r\n<b>Afluentes
+        \xDAnicos (Asimetr\xEDa Venosa):</b> A diferencia del lado derecho, la vena
+        renal izquierda recibe de forma obligatoria a la <i>vena gonadal izquierda</i>
+        (testicular u ov\xE1rica) y a la <i>vena suprarrenal izquierda</i>.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Desemboca en \xE1ngulo recto en la cara lateral de la vena cava inferior."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -91948,7 +94083,27 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374100487349532528, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374100487349532531, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374100487349532531, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8398622822667599183, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -92041,6 +94196,31 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 1.197
       objectReference: {fileID: 0}
+    - target: {fileID: 8571171111629686457, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571171111629686457, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto Superficial:</b> Nace de la parte lateral de la
+        red venosa dorsal de la mano. Asciende por la cara lateral del antebrazo
+        y del brazo.\r\n\r\n<b>Surco Deltapectoral y Terminaci\xF3n:</b> En el hombro,
+        transcurre por el surco deltapectoral (entre los m\xFAsculos deltoides y
+        pectoral mayor), perfora la fascia clavipectoral y desemboca directamente
+        en la porci\xF3n terminal de la vena axilar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -92049,10 +94229,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8571171111629686458, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -92074,6 +94269,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8587668106251016159, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730614585823355377, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "\nVena Cef\xE1lica"
       objectReference: {fileID: 0}
     - target: {fileID: 8730614585823355377, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -92095,7 +94300,7 @@ PrefabInstance:
     - target: {fileID: 8826381699059061009, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_text
-      value: "Vena Braquicef\xE1lica"
+      value: "\nVena Braquicef\xE1lica"
       objectReference: {fileID: 0}
     - target: {fileID: 8826381699059061009, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -92112,7 +94317,12 @@ PrefabInstance:
     - target: {fileID: 8826381699059061009, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_VerticalAlignment
-      value: 256
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826381699059061009, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8826381699059061009, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -92161,6 +94371,18 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8944153631333396115, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974265999631405753, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: '
+
+        Arco de la Aorta'
+      objectReference: {fileID: 0}
     - target: {fileID: 8974265999631405753, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_fontAsset
@@ -92180,6 +94402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037623434368561122, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "\nVena Bas\xEDlica"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037623434368561122, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
@@ -92193,6 +94420,11 @@ PrefabInstance:
     - target: {fileID: 9037623434368561122, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9038986992868051025, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9038986992868051027, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -92214,10 +94446,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_text
+      value: "<b>Disposici\xF3n:</b> Venas profundas sat\xE9lites dobles que acompa\xF1an
+        a la arteria tibial anterior en el compartimento anterior de la pierna. Perforan
+        la parte superior de la membrana inter\xF3sea junto a la arteria para unirse
+        a las venas tibiales posteriores."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -92226,8 +94476,43 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070780544609070541, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070780544609070542, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070780544609070542, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Origen y Trayecto Ascendente:</b> Continuaci\xF3n de la vena popl\xEDtea
+        a partir del hiato del aductor. Asciende por el conducto aductor y el tri\xE1ngulo
+        femoral. En su trayecto inferior se sit\xFAa lateral a la arteria, pero en
+        la base del tri\xE1ngulo femoral se posiciona medial a ella.\r\n\r\n<b>Terminaci\xF3n:</b>
+        Termina al pasar por detr\xE1s del ligamento inguinal, transform\xE1ndose
+        en la vena il\xEDaca externa."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -92237,13 +94522,38 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -5260132633963832354, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
     - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081359025723802445, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081359025723802446, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081359025723802446, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9157386077386786433, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -92273,10 +94583,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9177860504359801797, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177860504359801797, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 68d611f762f70fe41b66e735de89c825,
         type: 2}
+    - target: {fileID: 9177860504359801797, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9177860504359801797, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -92285,7 +94605,27 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 9177860504359801797, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177860504359801797, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177860504359801797, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177860504359801798, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177860504359801798, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
