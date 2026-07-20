@@ -4,88 +4,154 @@ using UnityEngine;
 
 public class PinInteractuable : MonoBehaviour
 {
-    [Header("Configuracion del Panel")]
-    [Tooltip("Escribe aqui exactamente el Tag que le pusiste al Canvas flotante en el Inspector.")]
+    [Header("Configuración del Panel")]
+    [Tooltip("Escribe exactamente el Tag del panel correspondiente.")]
     [SerializeField] private string tagDelPanelAActivar;
 
-    [Header("Ajustes de Posicion Dinamica")]
-    [Tooltip("¿Que tan arriba del pin quieres que aparezca el letrero? (En metros)")]
-    [SerializeField] private float alturaSobreElPin = 0.2f; // 20 centimetros por defecto
+    [Header("Ajustes de Posición")]
+    [SerializeField] private float alturaSobreElPin = 0.3f;
+
+    [Tooltip("Distancia del panel hacia el usuario.")]
+    [SerializeField] private float distanciaHaciaUsuario = 0.1f;
 
     private GameObject panelAsociado;
     private Transform camaraVR;
 
+    // Esta variable es compartida por todos los pines.
+    private static GameObject panelActualmenteVisible;
+
     private void Start()
     {
-        // 1. Buscamos la camara principal de las Meta Quest (el jugador)
         if (Camera.main != null)
         {
             camaraVR = Camera.main.transform;
         }
-
-        // 2. VALIDACIÓN CRÍTICA: Validamos si la casilla del Tag no esta vacia antes de buscar
-        if (!string.IsNullOrEmpty(tagDelPanelAActivar) && tagDelPanelAActivar.Trim() != "")
-        {
-            panelAsociado = GameObject.FindGameObjectWithTag(tagDelPanelAActivar);
-            
-            if (panelAsociado != null)
-            {
-                // --- POSICIONAMIENTO AUTOMÁTICO ---
-                // Teletransporta el panel exactamente sobre el pin sumando la altura en Y
-                Vector3 posicionNueva = transform.position + new Vector3(0, alturaSobreElPin, 0);
-                panelAsociado.transform.position = posicionNueva;
-
-                // Una vez acomodado en su sitio, lo apagamos para que empiece oculto
-                panelAsociado.SetActive(false); 
-            }
-            else
-            {
-                // Si el tag está escrito pero te equivocaste en una letra o no existe en la escena
-                Debug.LogError($"[PinInteractuable] No se encontro ningun panel con el Tag: '{tagDelPanelAActivar}' en el objeto '{gameObject.name}'. Revisa si el panel esta encendido en la jerarquia.");
-            }
-        }
         else
         {
-            // Si la casilla está vacía, solo lanza un aviso amarillo amistoso sin romper el simulador
-            Debug.LogWarning($"[PinInteractuable] El objeto '{gameObject.name}' tiene el script asignado pero su casilla 'Tag Del Panel A Activar' esta vacia.");
+            Debug.LogError(
+                "[PinInteractuable] No existe una cámara con el Tag MainCamera."
+            );
         }
-    }
 
-    private void Update()
-    {
-        // --- ROTACIÓN AUTOMÁTICA (BILLBOARD) ---
-        // Si el panel esta activo y la camara existe, hacemos que mire al jugador en tiempo real
-        if (panelAsociado != null && panelAsociado.activeSelf && camaraVR != null)
+        if (string.IsNullOrEmpty(tagDelPanelAActivar))
         {
-            // Calculamos el vector de direccion hacia el usuario
-            Vector3 direccionHaciaCamara = camaraVR.position - panelAsociado.transform.position;
-            
-            // Forzamos a que solo rote en el eje Y (evita que el panel se incline raro si miras hacia arriba/abajo)
-            direccionHaciaCamara.y = 0; 
+            Debug.LogWarning(
+                "[PinInteractuable] El pin " + gameObject.name +
+                " no tiene configurado el Tag del panel."
+            );
 
-            // Aplicamos la rotacion invertida (-) para que las letras no se vean en modo espejo
-            if (direccionHaciaCamara != Vector3.zero)
-            {
-                panelAsociado.transform.rotation = Quaternion.LookRotation(-direccionHaciaCamara);
-            }
+            return;
         }
-    }
 
-    // --- METODOS PUBLICOS PARA LOS EVENTOS HOVER (XR SIMPLE INTERACTABLE) ---
+        panelAsociado =
+            GameObject.FindGameObjectWithTag(tagDelPanelAActivar);
+
+        if (panelAsociado == null)
+        {
+            Debug.LogError(
+                "[PinInteractuable] No se encontró el panel con Tag: " +
+                tagDelPanelAActivar +
+                " para el pin: " + gameObject.name
+            );
+
+            return;
+        }
+
+        panelAsociado.SetActive(false);
+    }
 
     public void MostrarInformacion()
     {
-        if (panelAsociado != null)
+        Debug.Log(
+            "Pin detectado: " + gameObject.name +
+            " | Panel: " +
+            (panelAsociado != null ? panelAsociado.name : "NULL")
+        );
+
+        if (panelAsociado == null)
         {
-            panelAsociado.SetActive(true);
+            return;
+        }
+
+        // Oculta el panel anterior.
+        if (panelActualmenteVisible != null &&
+            panelActualmenteVisible != panelAsociado)
+        {
+            panelActualmenteVisible.SetActive(false);
+        }
+
+        PosicionarPanel();
+
+        panelAsociado.SetActive(true);
+        panelActualmenteVisible = panelAsociado;
+
+        Debug.Log(
+            "Panel visible: " + panelAsociado.name +
+            " | Activo: " + panelAsociado.activeInHierarchy
+        );
+    }
+
+    private void PosicionarPanel()
+    {
+        Vector3 posicionNueva =
+            transform.position + Vector3.up * alturaSobreElPin;
+
+        if (camaraVR != null)
+        {
+            Vector3 direccionHaciaUsuario =
+                camaraVR.position - posicionNueva;
+
+            direccionHaciaUsuario.y = 0f;
+
+            if (direccionHaciaUsuario.sqrMagnitude > 0.001f)
+            {
+                direccionHaciaUsuario.Normalize();
+
+                posicionNueva +=
+                    direccionHaciaUsuario * distanciaHaciaUsuario;
+            }
+        }
+
+        panelAsociado.transform.position = posicionNueva;
+        OrientarPanel();
+    }
+
+    private void LateUpdate()
+    {
+        if (panelAsociado != null &&
+            panelAsociado.activeSelf &&
+            camaraVR != null)
+        {
+            OrientarPanel();
+        }
+    }
+
+    private void OrientarPanel()
+    {
+        Vector3 direccionHaciaCamara =
+            camaraVR.position - panelAsociado.transform.position;
+
+        direccionHaciaCamara.y = 0f;
+
+        if (direccionHaciaCamara.sqrMagnitude > 0.001f)
+        {
+            panelAsociado.transform.rotation =
+                Quaternion.LookRotation(-direccionHaciaCamara);
         }
     }
 
     public void OcultarInformacion()
     {
-        if (panelAsociado != null)
+        if (panelAsociado == null)
         {
-            panelAsociado.SetActive(false);
+            return;
+        }
+
+        panelAsociado.SetActive(false);
+
+        if (panelActualmenteVisible == panelAsociado)
+        {
+            panelActualmenteVisible = null;
         }
     }
 }

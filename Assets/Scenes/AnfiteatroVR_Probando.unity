@@ -485,6 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2112739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1381,6 +1382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &10587634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,6 +1846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &12474581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2343,6 +2346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &22207589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2806,6 +2810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &24642608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3211,19 +3216,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 35441861}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -3310,7 +3303,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: InfoDeLaCavidadNasal
-  alturaSobreElPin: 0.2
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1 &57373409
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,6 +3917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &66388454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4938,6 +4933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &94609744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5197,6 +5193,46 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &105060252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4182228495484394899, guid: 59889190ffbc2334281e67e6cef80a4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 181065284014564060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &105060253 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4182228495484394903, guid: 59889190ffbc2334281e67e6cef80a4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 181065284014564060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &105060257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105060252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee10491ef6d5d1d49a270cf6b09bdc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableMipmapping: 0
+  _dynamicResolution: 1
+  _redrawResolutionThreshold: 2147483647
+  rectTransform: {fileID: 105060253}
+  maxTextureSize: 2048
+  manualRedraw: 0
+  renderInterval: 1
+  renderIntervalFrameOffset: 0
+  expensive: 0
+  layer: 5
+  opacity: 2
+  shape: 0
+  curveRadius: 1
+  overlapMask: 0
+  overlayType: 1
+  _overlayEnabled: 1
 --- !u!1 &105398600
 GameObject:
   m_ObjectHideFlags: 0
@@ -5758,8 +5794,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: InfoVenaBraquio
+  tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &111475570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6239,6 +6276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &113865522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6997,6 +7035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &134197601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7177,7 +7216,7 @@ PrefabInstance:
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_Name
-      value: InfoDelBronquiloDere
+      value: InfoDelBronquioloDere
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -7192,7 +7231,7 @@ PrefabInstance:
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_TagString
-      value: InfoDelBronquiloDere
+      value: InfoDelBronquioloDere
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677620, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -7287,7 +7326,12 @@ PrefabInstance:
     - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0009999999
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -8030,6 +8074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &150308986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8771,6 +8816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &165778936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10168,8 +10214,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: InfoVenaCaSuper
+  tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &178984942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10688,6 +10735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &188962330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11404,6 +11452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &196834255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11960,6 +12009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &205925055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13223,6 +13273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &246976765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13686,6 +13737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &248736351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15394,6 +15446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &292969081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16662,6 +16715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &356250670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16945,7 +16999,12 @@ PrefabInstance:
     - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0009999999
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -17399,6 +17458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &368659406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18022,6 +18082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &378290485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18965,6 +19026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &401376807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19864,6 +19926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &423925108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20081,7 +20144,7 @@ PrefabInstance:
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_Name
-      value: InfoDelBronquiloIzq
+      value: InfoDelBronquioloIzq
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -20096,7 +20159,7 @@ PrefabInstance:
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_TagString
-      value: InfoDelBronquiloIzq
+      value: InfoDelBronquioloIzq
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677620, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -20191,7 +20254,12 @@ PrefabInstance:
     - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0009999999
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677623, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -21064,6 +21132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &448890784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21558,6 +21627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &453673691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22523,6 +22593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &464780298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23438,6 +23509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &491819101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24787,6 +24859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &523450408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25458,6 +25531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &525813958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26286,7 +26360,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_Name
-      value: PinDelBronquiloDere
+      value: PinDelBronquioloDere
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
@@ -26361,19 +26435,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 539852009}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -26459,8 +26521,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: InfoDelBronquiloDere
-  alturaSobreElPin: 0.2
+  tagDelPanelAActivar: InfoDelBronquioloDere
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1001 &540313336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27022,19 +27085,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 567502585}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -27100,7 +27151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: InfoDeFaringe
-  alturaSobreElPin: 0.2
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1 &567594633
 GameObject:
   m_ObjectHideFlags: 0
@@ -27525,6 +27577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &569500129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28140,6 +28193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &588792057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28689,6 +28743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &603908585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29243,8 +29298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: InfoCarotidaIzq
+  tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &623862451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29775,6 +29831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &628768508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30327,19 +30384,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 648101281}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -30405,7 +30450,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: InfoDelPulmonIzquierdo
-  alturaSobreElPin: 0.2
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1 &650412285
 GameObject:
   m_ObjectHideFlags: 0
@@ -31244,6 +31290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &687413800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31706,6 +31753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &700437938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32271,6 +32319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &707187521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34483,6 +34532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &850904739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36102,6 +36152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &913697180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36971,6 +37022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &947164752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37578,6 +37630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &959693605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39532,6 +39585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1052814189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40032,6 +40086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1061316600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40636,6 +40691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1067789219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41099,6 +41155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1069147121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41562,6 +41619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1071561142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42332,6 +42390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1081831714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43329,6 +43388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1100660017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43848,6 +43908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1102704894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44305,6 +44366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1107061275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44792,6 +44854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1119994778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45850,7 +45913,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_Name
-      value: PinDelBronquiloIzq
+      value: PinDelBronquioloIzq
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
@@ -45925,19 +45988,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1139118549}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -46023,8 +46074,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: InfoDelBronquiloIzq
-  alturaSobreElPin: 0.2
+  tagDelPanelAActivar: InfoDelBronquioloIzq
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1 &1142276271
 GameObject:
   m_ObjectHideFlags: 0
@@ -46593,6 +46645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1146122418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47636,6 +47689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1169212101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48706,6 +48760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1203070979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50544,6 +50599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1263845097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51101,6 +51157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1270032318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51564,6 +51621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1270925791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52308,6 +52366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1291740740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52781,6 +52840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1293122860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53688,6 +53748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1314592228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54298,6 +54359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1321255701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55386,6 +55448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1365420202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55849,6 +55912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1369934033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56510,6 +56574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1381661701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57091,6 +57156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1387810194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57652,6 +57718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1389552289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58675,6 +58742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1424134104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59932,6 +60000,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -60021,19 +60094,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1444417387}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -60099,7 +60160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: InfoDelPulmonDerecho
-  alturaSobreElPin: 0.2
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1001 &1450442830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60709,6 +60771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1457631053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62720,6 +62783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1520811549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63251,6 +63315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1527935950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63928,6 +63993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1548137627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64703,6 +64769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1564287356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65960,6 +66027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1614869810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66423,6 +66491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1620111318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66886,6 +66955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1628819032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67633,6 +67703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1638677754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69701,6 +69772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1715259821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70200,6 +70272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1719072044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70712,6 +70785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1725485007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71760,6 +71834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1751187850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72233,6 +72308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1751920957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73121,6 +73197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1762161634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73578,6 +73655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1763568223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74041,6 +74119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1767344942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74590,6 +74669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1767516259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75132,19 +75212,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1774399825}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -75210,7 +75278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: InfoDeLaringe
-  alturaSobreElPin: 0.2
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1 &1774420192 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3938691326205805339, guid: 59889190ffbc2334281e67e6cef80a4f,
@@ -75561,6 +75630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1776975223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76528,6 +76598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1783414021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77157,6 +77228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1787278878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77665,19 +77737,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1816531205}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -77743,7 +77803,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: InfoDelDiafragma
-  alturaSobreElPin: 0.2
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1001 &1817011595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78285,6 +78346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1823613901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78784,6 +78846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1833079111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79701,6 +79764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1872716277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80313,6 +80377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1886055831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80835,6 +80900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1906448532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81367,6 +81433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1912713209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81872,6 +81939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1920330628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83042,6 +83110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1974580399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83677,6 +83746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1986011670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84140,6 +84210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &1994913984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84671,6 +84742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2003989577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85201,6 +85273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2012518263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85681,6 +85754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2018758580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86051,19 +86125,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnhover:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2023881057}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: OcultarInformacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenSelect:
     m_PersistentCalls:
       m_Calls: []
@@ -86129,7 +86191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: InfoDeTraquea
-  alturaSobreElPin: 0.2
+  alturaSobreElPin: 0.25
+  distanciaHaciaUsuario: 0.1
 --- !u!1 &2025124614
 GameObject:
   m_ObjectHideFlags: 0
@@ -86634,6 +86697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2039574181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87453,6 +87517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2071159057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88271,6 +88336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2087778299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88734,6 +88800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2088983461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89345,6 +89412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2098812599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89849,6 +89917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2102706385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90410,6 +90479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2122463241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91002,6 +91072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagDelPanelAActivar: 
   alturaSobreElPin: 0.2
+  distanciaHaciaUsuario: 0.1
 --- !u!114 &2123877406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95155,6 +95226,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2335556901608809854, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335556901608809854, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 2335556901608809855, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -96371,6 +96452,16 @@ PrefabInstance:
         type: 3}
       propertyPath: backgroundColor.r
       value: 0.11372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145117590369070093, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145117590369070093, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 3145117590369070094, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -98245,6 +98336,16 @@ PrefabInstance:
         type: 3}
       propertyPath: backgroundColor.r
       value: 0.11372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182228495484394903, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182228495484394903, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 4182228496211790085, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -103448,6 +103549,16 @@ PrefabInstance:
       propertyPath: backgroundColor.r
       value: 0.11372549
       objectReference: {fileID: 0}
+    - target: {fileID: 7447905581289755091, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447905581289755091, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 7447905581289755095, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -103665,6 +103776,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549107819113611434, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549107819113611434, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 7549107819113611435, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -106851,6 +106972,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 181065284014564131}
+    - targetCorrespondingSourceObject: {fileID: 4182228495484394899, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 105060257}
     - targetCorrespondingSourceObject: {fileID: 2174618965387363794, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       insertIndex: -1

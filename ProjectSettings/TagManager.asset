@@ -23,6 +23,8 @@ TagManager:
   - InfoDeTraquea
   - InfoDeLaringe
   - InfoDeFaringe
+  - InfoDelBronquioloIzq
+  - InfoDelBronquioloDere
   layers:
   - Default
   - TransparentFX
