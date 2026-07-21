@@ -51,6 +51,28 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - InfoDeOblicuo
   - InfoDelPectoralMayor
+  - InfoDelBiceps
+  - InfoDelRectoAbdominal
+  - InfoMuculoPectoralMayor
+  - InfoDelDeltoideAterior
+  - InfoMusculoBicepsBraquial
+  - InfoTricepsBraquial
+  - InfoTrapecio
+  - InfoDorsalAncho
+  - "InfoGl\xFAteoMayor"
+  - "InfoGl\xFAteoMedio"
+  - InfoCuadricepsFemoral
+  - InfoIsquiotibiales
+  - InfoGastrocnemio
+  - InfoTibialAnterior
+  - InfoEsternocleidomastoideo
+  - InfoSerratoAnterior
+  - InfoDelHumero
+  - InfoDelCubito
+  - InfoDelRadio
+  - InfoDeLosHuesosCarpianos
+  - InfoDeMetacarpianos
+  - InfoDeFalanges
   layers:
   - Default
   - TransparentFX
