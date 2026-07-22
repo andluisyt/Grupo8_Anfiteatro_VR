@@ -75,6 +75,38 @@ TagManager:
   - InfoDeFalanges
   - InfoDelHigado
   - InfoDeLaVenaCavaInferior
+  - InfoDeLaVenaSubclavia
+  - InfoDelaArteriaCarotidacomunDerecha
+  - InfoDeLaVenaYugularInterna
+  - InfoDeLaVenaYugularExterna
+  - InfoDelArcodelaAorta
+  - InfoDelaAortaDescendente
+  - InfoDelTroncoCeliaco
+  - InfoDelaArteriaRenalIzquierda
+  - InfoDeLaVenaRenal
+  - InfoDelaArteriaRenalDerecha
+  - InfoDeLaVenaIliacaComun
+  - InfoDelaArteriaIliacaComun
+  - InfoDelaArteriaSubclaviaDerecha
+  - InfoDeLaVenaIliacaInterna
+  - InfoDelaArteriaIliacaInterna
+  - InfoDelaArteriaSubclaviaIzquierda
+  - InfodelaArteriaAxilarIzquierda
+  - InfoDeLaVenaAxilar
+  - InfdelaArteriaBraquialIzquierda
+  - InfDeLaVenaBasilica
+  - InfDeLaVenaBraquiales
+  - InfdelaArteriaRadial
+  - InfdelaArteriaCubital
+  - InfDeLaVenaCubital
+  - InfdelaArteriaAxilarDerecha
+  - InfdelaArteriaBraquialDerecha
+  - InfdelaVenaRadial
+  - InfDeLaVenaCefalica
+  - InfdelaArteriaFemoral
+  - InfDeLaVenaFemoral
+  - InfdelaArteriaPoplitea
+  - InfDeLaVenaFemoralProfunda
   layers:
   - Default
   - TransparentFX
