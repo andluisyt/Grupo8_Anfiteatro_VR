@@ -12622,6 +12622,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cfef6fe5f25fc542b8a11b6fe9f1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &225328883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4221456492801315901, guid: 84371851a5d634b449d40eb01793320a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2089980972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &228673747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60236,6 +60242,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eecdd6de0bec6c438f600c7767a1a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1453790280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453790281}
+  - component: {fileID: 1453790282}
+  m_Layer: 0
+  m_Name: ControlHerramientasDibujo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1453790281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453790280}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0510443, y: 1.4731892, z: -2.4492097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1453790282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453790280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9aa82fdc5007947bfd9ffa9e86e9a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lapiz: {fileID: 225328883}
+  borrador: {fileID: 1514037037}
+  contenedorTrazos: {fileID: 0}
 --- !u!1001 &1457631042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62192,6 +62245,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 938107879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1514037037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1907370968461441035, guid: 9bb340c1043c2674a951265fa559abd4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1052717643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1515170037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88945,6 +89004,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1292489082}
     m_Modifications:
+    - target: {fileID: 3660911583494640629, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660911583494640629, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 466842d0a2a9bea4da289d4bf846a078, type: 2}
     - target: {fileID: 4221456492801315900, guid: 84371851a5d634b449d40eb01793320a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -89000,6 +89069,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pen
       objectReference: {fileID: 0}
+    - target: {fileID: 4221456492801315901, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221456492801315903, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: drawRate
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221456492801315903, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: lineWidth
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221456492801315903, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: penMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: e54f69701e49b04428e216221dc538a1, type: 2}
+    - target: {fileID: 4221456492801315903, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: drawingMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f539d0875bfab1643bfa586859c0622b, type: 2}
+    - target: {fileID: 4221456493182293911, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 466842d0a2a9bea4da289d4bf846a078, type: 2}
+    - target: {fileID: 4900182678127361194, guid: 84371851a5d634b449d40eb01793320a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 466842d0a2a9bea4da289d4bf846a078, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -108639,6 +108743,7 @@ GameObject:
   - component: {fileID: 905653797687770187}
   - component: {fileID: 2261960414844035089}
   - component: {fileID: 5689597526189055425}
+  - component: {fileID: 5689597526189055426}
   m_Layer: 3
   m_Name: DrawButton
   m_TagString: Untagged
@@ -110511,6 +110616,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1043592916}
         m_TargetAssemblyTypeName: ActivarPanelBorrador, Assembly-CSharp
         m_MethodName: Activarpanel_Terciario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5689597526189055426}
+        m_TargetAssemblyTypeName: ActivarLapiz, Assembly-CSharp
+        m_MethodName: MostrarOcultarLapiz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -112739,6 +112856,19 @@ MonoBehaviour:
   expandBorder: {fileID: 2202175136974959218}
   buttonShine: {fileID: 2217986655612769360}
   buttonSlide: {fileID: 490614910762686090}
+--- !u!114 &5689597526189055426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905653797687770188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae964da8bb572b64baf36fd35432fd41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lapiz: {fileID: 225328883}
 --- !u!114 &5689597527254524372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114442,3 +114572,4 @@ SceneRoots:
   - {fileID: 1553601013}
   - {fileID: 1910080335}
   - {fileID: 164700804}
+  - {fileID: 1453790281}
