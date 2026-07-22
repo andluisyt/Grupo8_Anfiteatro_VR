@@ -101022,6 +101022,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5861586047214275580, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelHigado
+      objectReference: {fileID: 0}
     - target: {fileID: 5861586047714943334, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer

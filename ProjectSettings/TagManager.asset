@@ -73,6 +73,7 @@ TagManager:
   - InfoDeLosHuesosCarpianos
   - InfoDeMetacarpianos
   - InfoDeFalanges
+  - InfoDelHigado
   layers:
   - Default
   - TransparentFX
