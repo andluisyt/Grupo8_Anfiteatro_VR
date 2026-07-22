@@ -107,6 +107,11 @@ TagManager:
   - InfDeLaVenaFemoral
   - InfdelaArteriaPoplitea
   - InfDeLaVenaFemoralProfunda
+  - InfDeLaVenaPopliteea
+  - InfDeLaVenaTibialPosterior
+  - InfDeLaVenaTibialAterior
+  - InfdelaArteriaTibialAnterior
+  - InfdelaArteriaTibialPosterior
   layers:
   - Default
   - TransparentFX

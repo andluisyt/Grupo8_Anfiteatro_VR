@@ -14127,6 +14127,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaIliacaComun
+      objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677620, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -92799,6 +92804,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 388497277937695513, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaCefalica
+      objectReference: {fileID: 0}
     - target: {fileID: 388497277937695516, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -92985,6 +92995,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 515804782339596894, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaArteriaRenalIzquierda
       objectReference: {fileID: 0}
     - target: {fileID: 526644531329400540, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -93269,6 +93284,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 864102183224381824, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaTibialAterior
+      objectReference: {fileID: 0}
     - target: {fileID: 864102183224381829, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -93514,6 +93534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 962995234528813996, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaCubital
       objectReference: {fileID: 0}
     - target: {fileID: 962995235000858426, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -94341,6 +94366,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1685325082244032483, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaArteriaIliacaInterna
+      objectReference: {fileID: 0}
     - target: {fileID: 1685325082244032485, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -95003,6 +95033,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929575037407277261, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaIliacaInterna
+      objectReference: {fileID: 0}
     - target: {fileID: 1945243701092554056, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -95633,6 +95668,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2354214476017865036, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaBraquiales
+      objectReference: {fileID: 0}
     - target: {fileID: 2354214476766889434, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -95677,6 +95717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2354769409167625975, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaArteriaSubclaviaDerecha
       objectReference: {fileID: 0}
     - target: {fileID: 2354769409808802925, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -95732,6 +95777,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2426081056982583544, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaRadial
       objectReference: {fileID: 0}
     - target: {fileID: 2426081056982583549, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -95844,6 +95894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2473537658601245571, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaYugularInterna
       objectReference: {fileID: 0}
     - target: {fileID: 2473537658601245573, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -96445,6 +96500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2828478283010142414, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaTibialAnterior
       objectReference: {fileID: 0}
     - target: {fileID: 2828478283639773780, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -97692,6 +97752,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3806047832004608922, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaCubital
+      objectReference: {fileID: 0}
     - target: {fileID: 3806047832004608924, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -97989,6 +98054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937090915459569925, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaVenaRadial
       objectReference: {fileID: 0}
     - target: {fileID: 3938691325872674701, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -98543,6 +98613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4096772414756556300, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaPopliteea
       objectReference: {fileID: 0}
     - target: {fileID: 4096772415338030228, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -99470,6 +99545,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4610454497453239657, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaArteriaSubclaviaIzquierda
+      objectReference: {fileID: 0}
     - target: {fileID: 4610454497453239660, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -100054,6 +100134,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4983679750592959651, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaPoplitea
+      objectReference: {fileID: 0}
     - target: {fileID: 4983679750592959653, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -100163,6 +100248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5061564863571117431, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaYugularExterna
       objectReference: {fileID: 0}
     - target: {fileID: 5061564864164794849, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -100280,6 +100370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180243502197491832, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaAxilarDerecha
       objectReference: {fileID: 0}
     - target: {fileID: 5180243502197491837, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -100430,6 +100525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223123594830237620, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaTibialPosterior
       objectReference: {fileID: 0}
     - target: {fileID: 5223527945123609848, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -101409,6 +101509,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229259021196307, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaAxilar
+      objectReference: {fileID: 0}
     - target: {fileID: 5973229259021196309, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -101582,6 +101687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6123925988723023196, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaFemoralProfunda
       objectReference: {fileID: 0}
     - target: {fileID: 6123925989222709188, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -102515,6 +102625,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6594514922980157397, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaFemoral
+      objectReference: {fileID: 0}
     - target: {fileID: 6594514923460227907, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -103001,6 +103116,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6896468752327153136, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfodelaArteriaAxilarIzquierda
+      objectReference: {fileID: 0}
     - target: {fileID: 6896468752327153140, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -103457,6 +103577,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7311715512151403899, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaBraquialDerecha
+      objectReference: {fileID: 0}
     - target: {fileID: 7311715512151403901, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -103711,6 +103836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366571472398815023, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelArcodelaAorta
       objectReference: {fileID: 0}
     - target: {fileID: 7408670378003208888, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -104208,6 +104338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549575529451108793, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaRenal
       objectReference: {fileID: 0}
     - target: {fileID: 7549575529451108796, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -105000,6 +105135,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8042207116472277503, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaFemoral
+      objectReference: {fileID: 0}
     - target: {fileID: 8042207117212880233, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -105194,6 +105334,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8141705402732304150, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelTroncoCeliaco
+      objectReference: {fileID: 0}
     - target: {fileID: 8141705403195556736, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -105228,6 +105373,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156699352527354770, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaArteriaIliacaComun
       objectReference: {fileID: 0}
     - target: {fileID: 8156699352527354772, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -105313,6 +105463,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195037608763302677, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaAortaDescendente
       objectReference: {fileID: 0}
     - target: {fileID: 8195037609206286733, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -105543,6 +105698,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8302870157235777021, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaArteriaCarotidacomunDerecha
+      objectReference: {fileID: 0}
     - target: {fileID: 8305725596201808735, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -105647,6 +105807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343738542592445515, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaBraquialIzquierda
       objectReference: {fileID: 0}
     - target: {fileID: 8343738542592445517, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -105873,6 +106038,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8398622824309168087, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfDeLaVenaBasilica
+      objectReference: {fileID: 0}
     - target: {fileID: 8411359960375849994, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -106002,6 +106172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427676419665969824, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaSubclavia
       objectReference: {fileID: 0}
     - target: {fileID: 8427676419665969829, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -106496,6 +106671,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8909191018390195749, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelaArteriaRenalDerecha
+      objectReference: {fileID: 0}
     - target: {fileID: 8909191018835289277, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Color.b
@@ -106872,6 +107052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157386078956022809, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfdelaArteriaTibialPosterior
       objectReference: {fileID: 0}
     - target: {fileID: 9157386078956022812, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
