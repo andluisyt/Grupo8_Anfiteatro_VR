@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaCubital
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &2112739
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaFemoralProfunda
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &10587634
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelOmoplato
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &12474581
@@ -2344,7 +2344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeSacro
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &22207589
@@ -2808,7 +2808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaTibialAterior
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &24642608
@@ -3920,7 +3920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLasCostillas
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &66388454
@@ -5799,7 +5799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaBraquiocefalica
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &111475570
@@ -8860,7 +8860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaRenal
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &165778936
@@ -10253,7 +10253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaCavaSuperior
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &178984942
@@ -10772,7 +10772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelCubito
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &188962330
@@ -11298,7 +11298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeAstragalo
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &196834255
@@ -11855,7 +11855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaIliacaComun
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &205925055
@@ -13125,7 +13125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaRadial
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &246976765
@@ -13589,7 +13589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaSubclaviaIzquierda
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &248736351
@@ -16572,7 +16572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaYugularExterna
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &356250670
@@ -17315,7 +17315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelCraneo
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &368659406
@@ -17939,7 +17939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaRadial
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &378290485
@@ -19783,7 +19783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaPoplitea
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &423925108
@@ -21484,7 +21484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaBraquiales
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &453673691
@@ -27243,7 +27243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeFemur
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &569500129
@@ -27859,7 +27859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaPoplitea
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &588792057
@@ -28965,7 +28965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaCarotidaComunIzquierda
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &623862451
@@ -29496,7 +29496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLasVertebras
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &628768508
@@ -30965,7 +30965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLosHuesosCarpianos
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &687413800
@@ -34207,7 +34207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaYugularInterna
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &850904739
@@ -36697,7 +36697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaAxilar
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &947164752
@@ -37305,7 +37305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaIliacaInterna
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &959693605
@@ -40443,7 +40443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaRenalIzquierda
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1067789219
@@ -40907,7 +40907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeFalangePie
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1069147121
@@ -41371,7 +41371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeMetacarpianos
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1071561142
@@ -42142,7 +42142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaCavaInferior
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1081831714
@@ -43140,7 +43140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelHumero
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1100660017
@@ -43660,7 +43660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaFemoral
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1102704894
@@ -46428,7 +46428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaCubital
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1146122418
@@ -47472,7 +47472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaSubclavia
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1169212101
@@ -50392,7 +50392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaRenalDerecha
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1263845097
@@ -50950,7 +50950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaTibialAnterior
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1270032318
@@ -51414,7 +51414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeTibia
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1270925791
@@ -54190,7 +54190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelRadio
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1321255701
@@ -55796,7 +55796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeCoxis
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1369934033
@@ -56458,7 +56458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: 'InfoDeLaArteriaBraquialIzquierda '
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1381661701
@@ -57040,7 +57040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaAxilarDerecha
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1387810194
@@ -57602,7 +57602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeFalanges
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1389552289
@@ -63262,7 +63262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelTroncoCeliaco
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1527935950
@@ -63940,7 +63940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaCefalica
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1548137627
@@ -64762,7 +64762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelEsternon
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1564287356
@@ -66484,7 +66484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDePerone
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1620111318
@@ -66948,7 +66948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaSubclaviaDerecha
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1628819032
@@ -67696,7 +67696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaAxilarIzquierda
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1638677754
@@ -69775,7 +69775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaAortaDescendente
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1715259821
@@ -70275,7 +70275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaMandibula
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1719072044
@@ -74122,7 +74122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaBraquialDerecha
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1767344942
@@ -74672,7 +74672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaTibialPosterior
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1767516259
@@ -76601,7 +76601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelArcoDeLaAorta
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1783414021
@@ -77231,7 +77231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaCarotidaComunDerecha
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1787278878
@@ -78349,7 +78349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDelMetacarpianoPie
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1823613901
@@ -78849,7 +78849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaTibialPosterior
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1833079111
@@ -81589,7 +81589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaBasilica
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1912713209
@@ -83902,7 +83902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaVenaIliacaComun
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &1986011670
@@ -84898,7 +84898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaIliacaInterna
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &2003989577
@@ -88497,7 +88497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaArteriaFemoral
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &2087778299
@@ -88961,7 +88961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeCinturaPelvica
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &2088983461
@@ -90759,7 +90759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b411366b2451c47873e828dce2eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDelPanelAActivar: 
+  tagDelPanelAActivar: InfoDeLaClavicula
   alturaSobreElPin: 0.2
   distanciaHaciaUsuario: 0.1
 --- !u!114 &2122463241
