@@ -141,6 +141,27 @@ TagManager:
   - InfoDeLaBoca
   - InfoDelEsofago
   - InfoDeLaLaringe
+  - InfoDelSistemaNervioso
+  - InfoDelCerebro
+  - InfoDelOjoIzquierdo
+  - InfoDelOjoDerecho
+  - InfoDelHemisferioIzq
+  - InfoDelHemisferioDere
+  - InfoDelTroncoEncefalico
+  - InfoDelPlexoBraquialIzquierdo
+  - InfoDelPlexoBraquialDerecho
+  - Infodelnerviociaticoizquierdo
+  - InfoDelnerviociaticoderecho
+  - PindelnerviocubitalDerecho
+  - Infodelnerviocubitalizquierdo
+  - Infodelnervioradializquierdo
+  - Infodelnervioradialderecho
+  - Infodelnerviofemoralderecho
+  - Infodelnerviofemoralizquierdo
+  - InfodelnervioTibialIzquierdo
+  - InfodelnervioTibialDerecho
+  - InfodelnervioPeroneoDerecho
+  - InfodelnervioPeroneoIzquierdo
   layers:
   - Default
   - TransparentFX

@@ -93076,6 +93076,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 704325051737446547, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfodelnervioPeroneoDerecho
+      objectReference: {fileID: 0}
     - target: {fileID: 704325051737446549, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -94261,6 +94266,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1566301670818168998, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Infodelnervioradialderecho
+      objectReference: {fileID: 0}
     - target: {fileID: 1566301671331424828, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -94628,6 +94638,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1741770911027751841, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: PindelnerviocubitalDerecho
+      objectReference: {fileID: 0}
     - target: {fileID: 1741770911027751844, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -94913,6 +94928,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1904310416927822424, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelAno
+      objectReference: {fileID: 0}
     - target: {fileID: 1904310416927822429, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -94997,6 +95017,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910639784991024118, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelColon
       objectReference: {fileID: 0}
     - target: {fileID: 1929575035910462037, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -95303,6 +95328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098679671660481232, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelPlexoBraquialDerecho
       objectReference: {fileID: 0}
     - target: {fileID: 2098679671660481237, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -96052,6 +96082,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2496128857000570783, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelCiego
+      objectReference: {fileID: 0}
     - target: {fileID: 2498383588781182196, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -96680,6 +96715,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2892183939232383498, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeIntestinoDelgado
+      objectReference: {fileID: 0}
     - target: {fileID: 2892183939232383500, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -97181,6 +97221,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3303289147493859771, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeApendice
+      objectReference: {fileID: 0}
     - target: {fileID: 3303289147493859773, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -97259,6 +97304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376755811667484162, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelPancreas
       objectReference: {fileID: 0}
     - target: {fileID: 3376755811667484164, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -97897,6 +97947,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3813059764455191860, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelRecto
+      objectReference: {fileID: 0}
     - target: {fileID: 3813059764885594030, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -98451,6 +98506,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052190040032075741, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Infodelnerviofemoralizquierdo
       objectReference: {fileID: 0}
     - target: {fileID: 4052190040602998087, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -99085,6 +99145,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4346504628881882541, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelHemisferioDere
+      objectReference: {fileID: 0}
     - target: {fileID: 4379877473726101624, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -99191,6 +99256,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4469470515304385066, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfodelnervioTibialIzquierdo
       objectReference: {fileID: 0}
     - target: {fileID: 4469470515304385068, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -99321,6 +99391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505889470665850641, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfodelnervioPeroneoIzquierdo
       objectReference: {fileID: 0}
     - target: {fileID: 4505889470665850644, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -99660,6 +99735,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4611805992200987195, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelnerviociaticoderecho
+      objectReference: {fileID: 0}
     - target: {fileID: 4611805992200987197, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -99876,6 +99956,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749748444022864572, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelHemisferioIzq
       objectReference: {fileID: 0}
     - target: {fileID: 4750234402250645391, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -100688,6 +100773,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5331008285878452997, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: 'InfoDeVesiculaBiliar '
+      objectReference: {fileID: 0}
     - target: {fileID: 5331008286484748179, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -100879,6 +100969,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5455947839496345346, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelPlexoBraquialIzquierdo
       objectReference: {fileID: 0}
     - target: {fileID: 5455947839496345348, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -101113,6 +101208,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5709871072096273072, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Infodelnerviocubitalizquierdo
+      objectReference: {fileID: 0}
     - target: {fileID: 5709871072096273077, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -101276,7 +101376,7 @@ PrefabInstance:
     - target: {fileID: 5838921564928290722, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: InfoDeLaBoca
       objectReference: {fileID: 0}
     - target: {fileID: 5838921564928290724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -102491,6 +102591,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6497217905437578181, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelOjoIzquierdo
+      objectReference: {fileID: 0}
     - target: {fileID: 6500504854773569990, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -102744,6 +102849,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597581243590511169, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelEsofago
       objectReference: {fileID: 0}
     - target: {fileID: 6597581243590511172, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -103176,6 +103286,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6883875151192601797, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelOjoDerecho
+      objectReference: {fileID: 0}
     - target: {fileID: 6883875151647891539, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -103410,6 +103525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118681293577641971, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeConductosBiliares
       objectReference: {fileID: 0}
     - target: {fileID: 7118681293577641973, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -103780,6 +103900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7345671274708050140, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Infodelnerviociaticoizquierdo
       objectReference: {fileID: 0}
     - target: {fileID: 7348151909397433600, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -104855,6 +104980,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7726540345720062392, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelCerebro
+      objectReference: {fileID: 0}
     - target: {fileID: 7726540345720062397, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -104971,6 +105101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759437865973455291, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaLaringe
       objectReference: {fileID: 0}
     - target: {fileID: 7759437865973455293, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -105313,6 +105448,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090573475869003507, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelTroncoEncefalico
       objectReference: {fileID: 0}
     - target: {fileID: 8090573475869003509, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -105958,6 +106098,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8367807963860881538, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Infodelnervioradializquierdo
+      objectReference: {fileID: 0}
     - target: {fileID: 8367807963860881540, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -106582,6 +106727,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8691235233745546141, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelSistemaNervioso
+      objectReference: {fileID: 0}
     - target: {fileID: 8691235234070822667, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -107098,6 +107248,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9116133243455086615, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Infodelnerviofemoralderecho
+      objectReference: {fileID: 0}
     - target: {fileID: 9116133243966294669, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -107332,6 +107487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212520488249025689, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfodelnervioTibialDerecho
       objectReference: {fileID: 0}
     - target: {fileID: 9212520488249025692, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
