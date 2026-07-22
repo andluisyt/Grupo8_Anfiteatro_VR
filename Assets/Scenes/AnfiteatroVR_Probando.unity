@@ -38966,6 +38966,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eraser
       objectReference: {fileID: 0}
+    - target: {fileID: 1907370968461441035, guid: 9bb340c1043c2674a951265fa559abd4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907370969044537490, guid: 9bb340c1043c2674a951265fa559abd4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907370969044537503, guid: 9bb340c1043c2674a951265fa559abd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 483de7582c443094c94b4d8806e78e48, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45829,6 +45844,7 @@ GameObject:
   - component: {fileID: 1142276275}
   - component: {fileID: 1142276274}
   - component: {fileID: 1142276273}
+  - component: {fileID: 1142276277}
   m_Layer: 3
   m_Name: EreaserButton
   m_TagString: Untagged
@@ -45952,6 +45968,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1142276277}
+        m_TargetAssemblyTypeName: ActivarBorrador, Assembly-CSharp
+        m_MethodName: MostrarOcultarBorrador
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1142276275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45990,6 +46018,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142276271}
   m_CullTransparentMesh: 1
+--- !u!114 &1142276277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142276271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254ebf413b520104f8a744ce6e4eea74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  borrador: {fileID: 1514037037}
 --- !u!1 &1144237408
 GameObject:
   m_ObjectHideFlags: 0
@@ -89072,7 +89113,7 @@ PrefabInstance:
     - target: {fileID: 4221456492801315901, guid: 84371851a5d634b449d40eb01793320a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221456492801315903, guid: 84371851a5d634b449d40eb01793320a,
         type: 3}
@@ -101932,7 +101973,7 @@ PrefabInstance:
     - target: {fileID: 6313038641723095561, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6345043027363066398, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
