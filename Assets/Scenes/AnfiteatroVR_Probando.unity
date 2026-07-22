@@ -101767,6 +101767,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6204295617023430733, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaVenaCavaInferior
+      objectReference: {fileID: 0}
     - target: {fileID: 6226095337921733762, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
