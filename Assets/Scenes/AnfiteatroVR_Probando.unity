@@ -92358,6 +92358,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 83984280875805522, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaMandibula
+      objectReference: {fileID: 0}
     - target: {fileID: 83984280875805524, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -93747,6 +93752,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1191149436396160810, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelEsternon
+      objectReference: {fileID: 0}
     - target: {fileID: 1191149436396160812, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -93944,6 +93954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1269219144596193639, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelMetarsiano
       objectReference: {fileID: 0}
     - target: {fileID: 1269219144921601521, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -94291,6 +94306,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1588953241466458107, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLasCostillas
+      objectReference: {fileID: 0}
     - target: {fileID: 1588953241466458109, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -94510,6 +94530,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710128623831652712, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeFalangePie
       objectReference: {fileID: 0}
     - target: {fileID: 1710128623831652717, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -95473,6 +95498,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2302370005264904755, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeTibia
+      objectReference: {fileID: 0}
     - target: {fileID: 2302370005264904757, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -96201,6 +96231,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2632741726572685376, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDePerone
+      objectReference: {fileID: 0}
     - target: {fileID: 2632741726572685381, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: followsTheme
@@ -96884,6 +96919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158298679940209565, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeFemur
       objectReference: {fileID: 0}
     - target: {fileID: 3158298680680681227, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -97586,6 +97626,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3673851257419253814, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLigamentoFalciforme
+      objectReference: {fileID: 0}
     - target: {fileID: 3673973001532565796, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -97694,6 +97739,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753825397523685510, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLaClavicula
       objectReference: {fileID: 0}
     - target: {fileID: 3755336605779897430, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -98975,6 +99025,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4338570879502227942, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeSacro
+      objectReference: {fileID: 0}
     - target: {fileID: 4345258997819823414, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -99993,6 +100048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891682775011060463, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeCoxis
       objectReference: {fileID: 0}
     - target: {fileID: 4891682775348493945, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -101213,10 +101273,20 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5838921564928290722, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5838921564928290724, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5838921564928290724, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 87.3
       objectReference: {fileID: 0}
     - target: {fileID: 5838921564928290727, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -101906,6 +101976,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6182205549624240541, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelCraneo
+      objectReference: {fileID: 0}
     - target: {fileID: 6182205550351645963, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_Layer
@@ -102103,6 +102178,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6294906415237845890, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelEstomago
+      objectReference: {fileID: 0}
     - target: {fileID: 6294906415237845892, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -102152,6 +102232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345043028099344008, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: infoDeAstragalo
       objectReference: {fileID: 0}
     - target: {fileID: 6345043028099344013, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -104055,6 +104140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460422670771297464, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDeLasVertebras
       objectReference: {fileID: 0}
     - target: {fileID: 7460422670771297468, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -107172,6 +107262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180661354839169041, guid: 59889190ffbc2334281e67e6cef80a4f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InfoDelOmoplato
       objectReference: {fileID: 0}
     - target: {fileID: 9180661354839169044, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}

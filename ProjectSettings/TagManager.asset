@@ -112,6 +112,35 @@ TagManager:
   - InfDeLaVenaTibialAterior
   - InfdelaArteriaTibialAnterior
   - InfdelaArteriaTibialPosterior
+  - InfoDeSacro
+  - InfoDeCoxis
+  - InfoDeFemur
+  - InfoDelMetarsiano
+  - infoDeAstragalo
+  - InfoDeFalangePie
+  - InfoDeTibia
+  - InfoDePerone
+  - InfoDelEsternon
+  - InfoDelOmoplato
+  - InfoDeLaMandibula
+  - InfoDelCraneo
+  - InfoDeLaClavicula
+  - InfoDeLasVertebras
+  - InfoDeLasCostillas
+  - InfoDelEstomago
+  - InfoDeLigamentoFalciforme
+  - 'InfoDeVesiculaBiliar '
+  - InfoDeConductosBiliares
+  - InfoDeIntestinoDelgado
+  - InfoDeApendice
+  - InfoDelCiego
+  - InfoDelColon
+  - InfoDelPancreas
+  - InfoDelRecto
+  - InfoDelAno
+  - InfoDeLaBoca
+  - InfoDelEsofago
+  - InfoDeLaLaringe
   layers:
   - Default
   - TransparentFX
