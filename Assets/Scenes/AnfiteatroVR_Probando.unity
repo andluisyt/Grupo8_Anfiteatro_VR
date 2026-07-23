@@ -231,6 +231,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaCubital
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -323,13 +328,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2112729}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2112736}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -338,13 +343,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2112729}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2112736}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -947,6 +952,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaFemoralProfunda
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -1026,13 +1036,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 10587624}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 10587631}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1041,13 +1051,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 10587624}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 10587631}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1309,13 +1319,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 12474571}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 12474578}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1324,13 +1334,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 12474571}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 12474578}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1652,13 +1662,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 22207579}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 22207586}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1667,13 +1677,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 22207579}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 22207586}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1856,6 +1866,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaTibialAterior
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -1935,13 +1950,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 24642598}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 24642605}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1950,13 +1965,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 24642598}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 24642605}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2265,7 +2280,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
@@ -2325,9 +2340,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 35441855}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 35441861}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2340,13 +2355,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 35441855}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 35441861}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3381,13 +3396,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 66388444}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 66388451}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3396,13 +3411,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 66388444}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 66388451}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4228,13 +4243,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 94609734}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 94609741}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4243,13 +4258,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 94609734}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 94609741}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4782,6 +4797,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
       propertyPath: m_TagString
       value: PinCirculatorio
       objectReference: {fileID: 0}
@@ -4864,21 +4884,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 111475557}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 111475557}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 111475567}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4891,20 +4899,8 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
+      - m_Target: {fileID: 111475567}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
         m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
@@ -5187,13 +5183,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 113865512}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 113865519}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5202,13 +5198,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 113865512}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 113865519}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5759,13 +5755,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 134197591}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 134197598}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5774,13 +5770,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 134197591}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 134197598}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6664,13 +6660,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 150308976}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 150308983}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6679,13 +6675,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 150308976}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 150308983}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7195,6 +7191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaRenal
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -7274,13 +7275,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 165778926}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 165778933}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7289,13 +7290,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 165778926}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 165778933}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8368,6 +8369,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
       propertyPath: m_TagString
       value: PinCirculatorio
       objectReference: {fileID: 0}
@@ -8450,21 +8456,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 178984929}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 178984929}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 178984939}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8477,20 +8471,8 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
+      - m_Target: {fileID: 178984939}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
         m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
@@ -8812,13 +8794,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 188962320}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 188962327}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8827,13 +8809,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 188962320}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 188962327}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9157,13 +9139,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 196834245}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 196834252}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9172,13 +9154,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 196834245}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 196834252}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9478,6 +9460,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaIliacaComun
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -9557,13 +9544,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 205925045}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 205925052}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9572,13 +9559,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 205925045}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 205925052}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10551,6 +10538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaVenaRadial
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -10630,13 +10622,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 246976755}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 246976762}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10645,13 +10637,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 246976755}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 246976762}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10846,6 +10838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaSubclaviaIzquierda
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -10925,13 +10922,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 248736341}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 248736348}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10940,13 +10937,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 248736341}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 248736348}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11453,7 +11450,7 @@ PrefabInstance:
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9021661640666677619, guid: 5cb37f59bf2d9cc47804254486d8982e,
         type: 3}
@@ -12262,13 +12259,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 292969071}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 292969078}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12277,13 +12274,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 292969071}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 292969078}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -13498,6 +13495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaYugularExterna
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -13577,13 +13579,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 356250660}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 356250667}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -13592,13 +13594,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 356250660}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 356250667}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14186,13 +14188,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 368659396}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 368659403}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14201,13 +14203,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 368659396}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 368659403}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14538,6 +14540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaRadial
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -14617,13 +14624,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 378290475}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 378290482}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14632,13 +14639,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 378290475}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 378290482}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15368,13 +15375,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 401376797}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 401376804}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15383,13 +15390,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 401376797}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 401376804}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16329,6 +16336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaPoplitea
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -16408,13 +16420,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 423925098}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 423925105}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16423,13 +16435,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 423925098}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 423925105}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17494,13 +17506,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 448890774}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 448890781}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17509,13 +17521,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 448890774}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 448890781}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17729,6 +17741,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaBraquiales
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -17808,13 +17825,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 453673681}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 453673688}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17823,13 +17840,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 453673681}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 453673688}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18581,13 +18598,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 464780288}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 464780295}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18596,13 +18613,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 464780288}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 464780295}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19316,13 +19333,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 491819091}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 491819098}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19331,13 +19348,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 491819091}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 491819098}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20306,13 +20323,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 523450398}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 523450405}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20321,13 +20338,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 523450398}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 523450405}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20797,13 +20814,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 525813948}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 525813955}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20812,13 +20829,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 525813948}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 525813955}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21625,7 +21642,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
@@ -21685,9 +21702,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 539852003}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 539852009}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21700,13 +21717,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 539852003}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 539852009}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22278,7 +22295,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
@@ -22359,9 +22376,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 567502578}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 567502585}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22374,13 +22391,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 567502578}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 567502585}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22734,13 +22751,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 569500119}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 569500126}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22749,13 +22766,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 569500119}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 569500126}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23114,6 +23131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaPoplitea
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -23193,13 +23215,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 588792047}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 588792054}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23208,13 +23230,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 588792047}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 588792054}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23819,13 +23841,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 603908575}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 603908582}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23834,13 +23856,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 603908575}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 603908582}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24412,6 +24434,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
       propertyPath: m_TagString
       value: PinCirculatorio
       objectReference: {fileID: 0}
@@ -24494,21 +24521,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 623862434}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 623862434}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 623862448}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24521,20 +24536,8 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
+      - m_Target: {fileID: 623862448}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
         m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
@@ -24880,13 +24883,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 628768498}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 628768505}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24895,13 +24898,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 628768498}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 628768505}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -25608,9 +25611,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 648101274}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 648101281}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25623,13 +25626,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 648101274}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 648101281}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26569,13 +26572,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 687413790}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 687413797}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26584,13 +26587,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 687413790}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 687413797}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26855,13 +26858,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 178427471}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 700437935}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26870,13 +26873,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 178427471}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 700437935}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27252,13 +27255,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 707187511}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 707187518}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27267,13 +27270,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 707187511}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 707187518}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -29685,6 +29688,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -29764,13 +29772,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 850904729}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 850904736}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -29779,13 +29787,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 850904729}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 850904736}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31171,13 +31179,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 411687276}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 913697177}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31186,13 +31194,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 411687276}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 913697177}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31992,6 +32000,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaAxilar
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -32071,13 +32084,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 947164742}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 947164749}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32086,13 +32099,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 947164742}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 947164749}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32419,6 +32432,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaIliacaInterna
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -32498,13 +32516,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 959693595}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 959693602}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32513,13 +32531,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 959693595}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 959693602}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34964,13 +34982,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1052814179}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1052814186}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34979,13 +34997,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1052814179}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1052814186}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35284,13 +35302,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1061316590}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1061316597}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35299,13 +35317,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1061316590}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1061316597}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35629,6 +35647,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaRenalIzquierda
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -35708,13 +35731,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1067789209}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1067789216}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35723,13 +35746,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1067789209}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1067789216}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35991,13 +36014,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1069147111}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1069147118}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36006,13 +36029,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1069147111}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1069147118}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36310,13 +36333,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1071561132}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1071561139}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36325,13 +36348,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1071561132}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1071561139}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36808,6 +36831,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -36900,13 +36928,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1081831704}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1081831711}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36915,13 +36943,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1081831704}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1081831711}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37717,13 +37745,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1100660007}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1100660014}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37732,13 +37760,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1100660007}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1100660014}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37977,6 +38005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaFemoral
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -38056,13 +38089,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1102704884}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1102704891}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38071,13 +38104,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1102704884}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1102704891}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38333,13 +38366,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1107061265}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1107061272}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38348,13 +38381,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1107061265}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1107061272}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38628,13 +38661,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1119994768}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1119994775}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38643,13 +38676,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1119994768}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1119994775}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -39434,7 +39467,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
@@ -39494,9 +39527,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1139118543}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1139118549}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -39509,13 +39542,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1139118543}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1139118549}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -39982,6 +40015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaCubital
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -40061,13 +40099,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1146122408}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1146122415}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -40076,13 +40114,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1146122408}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1146122415}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -40845,6 +40883,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -40924,13 +40967,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169212091}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1169212098}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -40939,13 +40982,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169212091}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1169212098}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41803,13 +41846,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1203070969}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1203070976}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41818,13 +41861,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1203070969}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1203070976}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -43400,6 +43443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaRenalDerecha
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -43479,13 +43527,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1263845087}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1263845094}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -43494,13 +43542,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1263845087}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1263845094}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -43777,6 +43825,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaTibialAnterior
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -43856,13 +43909,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1270032308}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1270032315}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -43871,13 +43924,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1270032308}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1270032315}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44139,13 +44192,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1270925781}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1270925788}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44154,13 +44207,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1270925781}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1270925788}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44733,13 +44786,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1291740730}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1291740737}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44748,13 +44801,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1291740730}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1291740737}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -45059,13 +45112,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293122850}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1293122857}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -45074,13 +45127,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293122850}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1293122857}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -45774,13 +45827,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1314592218}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1314592225}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -45789,13 +45842,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1314592218}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1314592225}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -46204,13 +46257,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321255691}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1321255698}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -46219,13 +46272,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321255691}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1321255698}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -47328,13 +47381,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1365420192}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1365420199}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -47343,13 +47396,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1365420192}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1365420199}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -47611,13 +47664,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1369934023}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1369934030}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -47626,13 +47679,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1369934023}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1369934030}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -48051,6 +48104,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'PindelaArteriaBraquialIzquierda '
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -48130,13 +48188,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1381661691}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1381661698}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -48145,13 +48203,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1381661691}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1381661698}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -48452,6 +48510,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaAxilarDerecha
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -48531,13 +48594,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1387810184}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1387810191}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -48546,13 +48609,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1387810184}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1387810191}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -48912,13 +48975,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1389552279}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1389552286}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -48927,13 +48990,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1389552279}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1389552286}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50228,13 +50291,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1424134094}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1424134101}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50243,13 +50306,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1424134094}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1424134101}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -51520,9 +51583,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1444417380}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1444417387}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -51535,13 +51598,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1444417380}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1444417387}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -52133,13 +52196,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1457631043}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1457631050}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -52148,13 +52211,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1457631043}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1457631050}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -54133,13 +54196,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1520811539}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1520811546}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -54148,13 +54211,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1520811539}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1520811546}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -54405,6 +54468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelTroncoCeliaco
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -54484,13 +54552,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1527935940}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1527935947}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -54499,13 +54567,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1527935940}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1527935947}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -55160,6 +55228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaCefalica
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -55239,13 +55312,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1548137617}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1548137624}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -55254,13 +55327,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1548137617}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1548137624}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -55880,13 +55953,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1564287346}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1564287353}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -55895,13 +55968,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1564287346}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1564287353}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -56921,13 +56994,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1614869800}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1614869807}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -56936,13 +57009,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1614869800}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1614869807}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -57204,13 +57277,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620111308}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1620111315}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -57219,13 +57292,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620111308}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1620111315}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -57441,6 +57514,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaSubclaviaDerecha
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -57520,13 +57598,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1628819022}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1628819029}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -57535,13 +57613,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1628819022}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1628819029}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -58008,6 +58086,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaAxilarIzquierda
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -58087,13 +58170,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1638677744}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1638677751}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -58102,13 +58185,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1638677744}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1638677751}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -59910,6 +59993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDelaAortaDescendente
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -59989,13 +60077,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1715259811}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1715259818}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -60004,13 +60092,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1715259811}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1715259818}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -60320,13 +60408,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1719072034}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1719072041}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -60335,13 +60423,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1719072034}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1719072041}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -60652,13 +60740,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1725484997}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1725485004}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -60667,13 +60755,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1725484997}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1725485004}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -61657,13 +61745,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1751187840}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1751187847}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -61672,13 +61760,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1751187840}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1751187847}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -61950,13 +62038,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1751920947}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1751920954}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -61965,13 +62053,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1751920947}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1751920954}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -62658,13 +62746,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 216385116}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1762161631}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -62673,13 +62761,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 216385116}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1762161631}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -62935,13 +63023,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1763568213}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1763568220}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -62950,13 +63038,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1763568213}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1763568220}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -63139,6 +63227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaBraquialDerecha
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -63218,13 +63311,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1767344932}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1767344939}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -63233,13 +63326,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1767344932}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1767344939}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -63508,6 +63601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaTibialPosterior
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -63587,13 +63685,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1767516249}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1767516256}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -63602,13 +63700,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1767516249}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1767516256}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -63967,7 +64065,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
@@ -64048,9 +64146,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1774399818}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1774399825}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -64063,13 +64161,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1774399818}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1774399825}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -64361,13 +64459,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1776975213}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1776975220}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -64376,13 +64474,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1776975213}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1776975220}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -64812,6 +64910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelArcodelaAorta
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -64891,13 +64994,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1783414011}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1783414018}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -64906,13 +65009,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1783414011}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1783414018}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -65387,6 +65490,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -65466,13 +65574,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1787278868}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1787278875}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -65481,13 +65589,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1787278868}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1787278875}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -65914,7 +66022,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
@@ -65995,9 +66103,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1816531198}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1816531205}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -66010,13 +66118,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1816531198}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1816531205}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -66475,13 +66583,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1823613891}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1823613898}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -66490,13 +66598,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1823613891}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1823613898}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -66715,6 +66823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaTibialPosterior
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -66794,13 +66907,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1833079101}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1833079108}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -66809,13 +66922,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1833079101}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1833079108}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -67765,13 +67878,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1872716267}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1872716274}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -67780,13 +67893,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1872716267}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1872716274}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -68201,13 +68314,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1753117832}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1886055828}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -68216,13 +68329,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1753117832}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1886055828}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -68579,13 +68692,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1906448522}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1906448529}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -68594,13 +68707,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1906448522}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1906448529}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -69005,6 +69118,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaBasilica
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -69084,13 +69202,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1912713199}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1912713206}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -69099,13 +69217,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1912713199}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1912713206}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -69421,13 +69539,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1920330618}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1920330625}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -69436,13 +69554,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1920330618}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1920330625}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -70415,13 +70533,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1171034128}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1974580396}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -70430,13 +70548,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1171034128}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1974580396}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -70952,6 +71070,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinDeLaVenaIliacaComun
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -71031,13 +71154,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1986011660}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1986011667}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -71046,13 +71169,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1986011660}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1986011667}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -71314,13 +71437,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1994913974}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1994913981}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -71329,13 +71452,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1994913974}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1994913981}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -71586,6 +71709,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaIliacaInterna
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -71665,13 +71793,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2003989567}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2003989574}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -71680,13 +71808,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2003989567}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2003989574}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -72051,13 +72179,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2012518253}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2012518260}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -72066,13 +72194,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2012518253}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2012518260}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -72339,13 +72467,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2018758570}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2018758577}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -72354,13 +72482,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2018758570}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2018758577}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -72613,7 +72741,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
@@ -72694,9 +72822,9 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2023881050}
-        m_TargetAssemblyTypeName: PinInteractuable, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 2023881057}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -72709,13 +72837,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2023881050}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2023881057}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -73137,13 +73265,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2039574171}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2039574178}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -73152,13 +73280,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2039574171}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2039574178}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -74090,13 +74218,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2071159047}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2071159054}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -74105,13 +74233,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2071159047}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2071159054}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -74231,7 +74359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2073074943
 Transform:
   m_ObjectHideFlags: 0
@@ -74643,6 +74771,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PindelaArteriaFemoral
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93cc3000994c9f249a6617d19f8de38f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: 93cc3000994c9f249a6617d19f8de38f, type: 3}
     m_RemovedGameObjects: []
@@ -74722,13 +74855,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2087778289}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2087778296}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -74737,13 +74870,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2087778289}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2087778296}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -75005,13 +75138,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2088983451}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2088983458}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -75020,13 +75153,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2088983451}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2088983458}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -75555,13 +75688,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2098812589}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2098812596}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -75570,13 +75703,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2098812589}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2098812596}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -75879,13 +76012,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2102706375}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2102706382}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -75894,13 +76027,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2102706375}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2102706382}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -76236,13 +76369,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2122463231}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2122463238}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -76251,13 +76384,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2122463231}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2122463238}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -76652,13 +76785,13 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 981960898}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2123877403}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: MostrarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -76667,13 +76800,13 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 981960898}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2123877403}
+        m_TargetAssemblyTypeName: PinPanelInformativo, Assembly-CSharp
+        m_MethodName: OcultarInformacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -78111,7 +78244,7 @@ PrefabInstance:
     - target: {fileID: 388497277937695513, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 388497277937695513, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -78303,7 +78436,7 @@ PrefabInstance:
     - target: {fileID: 515804782339596894, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 515804782339596894, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -78596,7 +78729,7 @@ PrefabInstance:
     - target: {fileID: 864102183224381824, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 864102183224381824, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -78847,7 +78980,7 @@ PrefabInstance:
     - target: {fileID: 962995234528813996, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 962995234528813996, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -79703,7 +79836,7 @@ PrefabInstance:
     - target: {fileID: 1685325082244032483, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1685325082244032483, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -80395,7 +80528,7 @@ PrefabInstance:
     - target: {fileID: 1929575037407277261, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1929575037407277261, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -81040,7 +81173,7 @@ PrefabInstance:
     - target: {fileID: 2354214476017865036, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2354214476017865036, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -81090,7 +81223,7 @@ PrefabInstance:
     - target: {fileID: 2354769409167625975, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2354769409167625975, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -81150,7 +81283,7 @@ PrefabInstance:
     - target: {fileID: 2426081056982583544, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2426081056982583544, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -81267,7 +81400,7 @@ PrefabInstance:
     - target: {fileID: 2473537658601245571, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2473537658601245571, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -81883,7 +82016,7 @@ PrefabInstance:
     - target: {fileID: 2828478283010142414, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2828478283010142414, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -83164,7 +83297,7 @@ PrefabInstance:
     - target: {fileID: 3806047832004608922, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3806047832004608922, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -83472,7 +83605,7 @@ PrefabInstance:
     - target: {fileID: 3937090915459569925, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3937090915459569925, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -84036,7 +84169,7 @@ PrefabInstance:
     - target: {fileID: 4096772414756556300, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4096772414756556300, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -84347,7 +84480,7 @@ PrefabInstance:
     - target: {fileID: 4303952437601525393, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4338570877989630844, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -84987,7 +85120,7 @@ PrefabInstance:
     - target: {fileID: 4610454497453239657, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4610454497453239657, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -85591,7 +85724,7 @@ PrefabInstance:
     - target: {fileID: 4983679750592959651, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4983679750592959651, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -85706,7 +85839,7 @@ PrefabInstance:
     - target: {fileID: 5061564863571117431, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5061564863571117431, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -85828,7 +85961,7 @@ PrefabInstance:
     - target: {fileID: 5180243502197491832, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5180243502197491832, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -85983,7 +86116,7 @@ PrefabInstance:
     - target: {fileID: 5223123594830237620, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5223123594830237620, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -86991,7 +87124,7 @@ PrefabInstance:
     - target: {fileID: 5973229259021196307, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5973229259021196307, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -87170,7 +87303,7 @@ PrefabInstance:
     - target: {fileID: 6123925988723023196, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6123925988723023196, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88127,7 +88260,7 @@ PrefabInstance:
     - target: {fileID: 6594514922980157397, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6594514922980157397, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -88628,7 +88761,7 @@ PrefabInstance:
     - target: {fileID: 6896468752327153136, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6896468752327153136, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89094,7 +89227,7 @@ PrefabInstance:
     - target: {fileID: 7311715512151403899, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7311715512151403899, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89359,7 +89492,7 @@ PrefabInstance:
     - target: {fileID: 7366571472398815023, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7366571472398815023, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -89866,7 +89999,7 @@ PrefabInstance:
     - target: {fileID: 7549575529451108793, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7549575529451108793, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90677,7 +90810,7 @@ PrefabInstance:
     - target: {fileID: 8042207116472277503, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8042207116472277503, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90881,7 +91014,7 @@ PrefabInstance:
     - target: {fileID: 8141705402732304150, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8141705402732304150, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -90921,7 +91054,7 @@ PrefabInstance:
     - target: {fileID: 8156699352527354770, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8156699352527354770, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91011,7 +91144,7 @@ PrefabInstance:
     - target: {fileID: 8195037608763302677, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8195037608763302677, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91245,7 +91378,7 @@ PrefabInstance:
     - target: {fileID: 8302870157235777021, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8302870157235777021, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91355,7 +91488,7 @@ PrefabInstance:
     - target: {fileID: 8343738542592445515, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8343738542592445515, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91590,7 +91723,7 @@ PrefabInstance:
     - target: {fileID: 8398622824309168087, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8398622824309168087, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -91665,7 +91798,7 @@ PrefabInstance:
     - target: {fileID: 8411359960989966492, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8411359960989966492, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -92228,7 +92361,7 @@ PrefabInstance:
     - target: {fileID: 8909191018390195749, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8909191018390195749, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
@@ -92615,7 +92748,7 @@ PrefabInstance:
     - target: {fileID: 9157386078956022809, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9157386078956022809, guid: 59889190ffbc2334281e67e6cef80a4f,
         type: 3}
