@@ -4,25 +4,46 @@ using UnityEngine;
 
 public class ActivarLapiz : MonoBehaviour
 {
-    [Header("Objeto lápiz de la escena")]
     public GameObject lapiz;
-
-    void Start()
-    {
-        if (lapiz != null)
-        {
-            lapiz.SetActive(false);
-        }
-    }
+    public Transform puntoAparicionLapiz;
 
     public void MostrarOcultarLapiz()
     {
         if (lapiz == null)
         {
-            Debug.LogWarning("No se ha asignado el objeto Pen.");
+            Debug.LogWarning("No se asignó el objeto Pen.");
             return;
         }
 
-        lapiz.SetActive(!lapiz.activeSelf);
+        bool activar = !lapiz.activeSelf;
+
+        lapiz.SetActive(activar);
+
+        if (activar)
+        {
+            ColocarLapiz();
+        }
+    }
+
+    private void ColocarLapiz()
+    {
+        if (puntoAparicionLapiz == null)
+        {
+            Debug.LogWarning("No se asignó PuntoLapiz.");
+            return;
+        }
+
+        lapiz.transform.SetPositionAndRotation(
+            puntoAparicionLapiz.position,
+            puntoAparicionLapiz.rotation
+        );
+
+        Rigidbody rb = lapiz.GetComponent<Rigidbody>();
+
+        if (rb != null)
+        {
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
     }
 }
