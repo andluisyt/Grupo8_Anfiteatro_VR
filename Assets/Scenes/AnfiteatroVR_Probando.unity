@@ -54338,7 +54338,6 @@ GameObject:
   - component: {fileID: 1328949620}
   - component: {fileID: 1328949619}
   - component: {fileID: 1328949623}
-  - component: {fileID: 1328949624}
   m_Layer: 3
   m_Name: ClearButton
   m_TagString: Untagged
@@ -54388,9 +54387,9 @@ MonoBehaviour:
   buttonHoverColor: {r: 0.72156864, g: 0.72156864, b: 0.72156864, a: 1}
   borderHoverColor: {r: 0.72156864, g: 0.72156864, b: 0.72156864, a: 1}
   textHoverColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
-  buttonClickColor: {r: 0.5568628, g: 0.39607844, b: 0.7490196, a: 1}
-  borderClickColor: {r: 0.5568628, g: 0.39607844, b: 0.7490196, a: 1}
-  textClickColor: {r: 0.72156864, g: 0.72156864, b: 0.72156864, a: 1}
+  buttonClickColor: {r: 1, g: 1, b: 1, a: 1}
+  borderClickColor: {r: 1, g: 1, b: 1, a: 1}
+  textClickColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
   text: 
   borderWidth: 4
   roundness: 1
@@ -54462,18 +54461,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1328949624}
-        m_TargetAssemblyTypeName: ResetButtonColor, Assembly-CSharp
-        m_MethodName: OnPress
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1328949621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54524,21 +54511,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dea95006fdca3c42a0d9cc2a9bec116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagenBoton: {fileID: 1328949621}
-  duracionBlanco: 0.25
---- !u!114 &1328949624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1328949617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bd2fd2b69c376f4c88bd26ab381cde5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonImage: {fileID: 1437292614}
 --- !u!1 &1336506927
 GameObject:
   m_ObjectHideFlags: 0
